@@ -1,0 +1,22 @@
+pyarrow
+fastparquet
+tqdm
+pandas
+numpy
+numba
+scipy
+seaborn
+matplotlib
+scikit-learn
+pingouin
+statsmodels
+pymer4
+umap-learn
+networkx
+binit
+spiketimes @ git+https://github.com/Ruairi-osul/spiketimes.git
+neurobox @ git+https://github.com/Ruairi-osul/neurobox.git
+mypy
+jupyter
+black
+neurodsp
