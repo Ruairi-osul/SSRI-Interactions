@@ -1,5 +1,5 @@
 from ssri_interactions.config import Config
-from typing import Optional, Sequence, Tuple
+from typing import Any, Callable, Optional, Sequence, Tuple
 from ssri_interactions.io import load_eeg_raw
 import pandas as pd
 from scipy.signal import medfilt
@@ -9,6 +9,8 @@ from pingouin import circ_mean, circ_rayleigh
 import numpy as np
 import warnings
 from neurobox.long_transforms import get_closest_event
+from binit.bin import which_bin
+from scipy.signal import detrend
 
 
 class StateHandler:
@@ -72,6 +74,9 @@ class RawEEGHandler:
         delta_frange: Tuple[float, float] = (0.2, 4),
         theta_frange: Tuple[float, float] = (4.1, 8),
         fs: float = 250,
+        detrend: bool = True,
+        loader: Callable = load_eeg_raw,
+        phase_bins: int = 19,
     ):
         self.block = block
         self.session_names = session_names
@@ -87,9 +92,13 @@ class RawEEGHandler:
         self.theta_frange = theta_frange
         self.fs = fs
         self._raw_eeg_df = None
+        self.loader = loader
+        self.detrend = detrend
+        self.phase_bins = np.linspace(-np.pi, np.pi, phase_bins)
+        self.phase_interval = np.diff(self.phase_bins)[0]
 
     def _load_raw_eeg_df(self):
-        return load_eeg_raw(self.block)
+        return self.loader(self.block)
 
     def _preprocess_df(self, df: pd.DataFrame) -> pd.DataFrame:
         if self.t_start is not None:
@@ -102,7 +111,13 @@ class RawEEGHandler:
             df[self.value_column] = df.groupby([self.session_column])[
                 self.value_column
             ].transform(medfilt, kernel_size=self.medfilter_size)
+        if self.detrend:
+            df[self.value_column] = df.groupby([self.session_column])[
+                self.value_column
+            ].transform(detrend)
+        return df
 
+    def _get_oscilations(self, df: pd.DataFrame) -> pd.DataFrame:
         df["delta"] = df.groupby([self.session_column])[self.value_column].transform(
             lambda x: filter_signal(
                 x.values, pass_type="bandpass", f_range=self.delta_frange, fs=self.fs
@@ -113,6 +128,9 @@ class RawEEGHandler:
                 x.values, pass_type="bandpass", f_range=self.theta_frange, fs=self.fs
             )
         )
+        return df
+
+    def _get_instantaneous_phase(self, df: pd.DataFrame) -> pd.DataFrame:
         df["delta_phase"] = df.groupby(self.session_column)["delta"].transform(
             lambda x: phase_by_time(x.values, fs=self.fs)
         )
@@ -121,11 +139,30 @@ class RawEEGHandler:
         )
         return df
 
+    def _phase_to_deg(self, df: pd.DataFrame) -> pd.DataFrame:
+        df["delta_phase_deg"] = df["delta_phase"].apply(lambda x: np.rad2deg(x))
+        df["theta_phase_deg"] = df["theta_phase"].apply(lambda x: np.rad2deg(x))
+        return df
+
+    def _bin_phase(self, df: pd.DataFrame) -> pd.DataFrame:
+        df["delta_phase_bin"] = which_bin(
+            df["delta_phase"].values, self.phase_bins, time_after=self.phase_interval
+        )
+        df["theta_phase_bin"] = which_bin(
+            df["theta_phase"].values, self.phase_bins, time_after=self.phase_interval
+        )
+        return df
+
     @property
     def raw_eeg_df(self):
         if self._raw_eeg_df is None:
             df = self._load_raw_eeg_df()
-            self._raw_eeg_df = self._preprocess_df(df)
+            df = self._preprocess_df(df)
+            df = self._get_oscilations(df)
+            df = self._get_instantaneous_phase(df)
+            df = self._phase_to_deg(df)
+            df = self._bin_phase(df)
+            self._raw_eeg_df = df
         return self._raw_eeg_df
 
 
