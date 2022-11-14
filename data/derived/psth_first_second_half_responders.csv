@@ -1,0 +1,465 @@
+neuron_id,response_first_half,response_second_half,neuron_type,group
+1069,non responder,activated,SIR,SAL
+1070,activated,activated,SIR,SAL
+1071,activated,activated,FF,SAL
+1072,inhibited,inhibited,FF,SAL
+1074,activated,non responder,SIR,SAL
+1075,non responder,activated,SR,SAL
+1076,activated,activated,SIR,SAL
+1078,inhibited,inhibited,SR,SAL
+1079,non responder,non responder,SIR,SAL
+1081,non responder,non responder,SR,SAL
+1082,non responder,non responder,SIR,SAL
+1084,non responder,non responder,SIR,SAL
+1085,inhibited,inhibited,SR,SAL
+1087,activated,non responder,SIR,SAL
+1088,non responder,non responder,SIR,CIT
+1093,non responder,activated,SIR,CIT
+1094,activated,non responder,SIR,CIT
+1095,activated,activated,SR,CIT
+1098,non responder,non responder,SIR,CIT
+1100,non responder,non responder,SR,CIT
+1102,non responder,non responder,SIR,CIT
+1105,non responder,non responder,SIR,CIT
+1106,activated,activated,SR,CIT
+1107,inhibited,inhibited,SR,CIT
+1111,non responder,non responder,SR,CIT
+1114,activated,activated,FF,DIS
+1116,activated,activated,SR,DIS
+1119,activated,activated,SIR,DIS
+1121,activated,activated,SR,DIS
+1123,activated,activated,FF,DIS
+1124,non responder,non responder,SIR,DIS
+1127,inhibited,inhibited,SR,DIS
+1131,activated,activated,SIR,DIS
+1136,non responder,non responder,SR,DIS
+1137,activated,activated,SIR,DIS
+1138,activated,activated,SIR,DIS
+1139,activated,activated,SIR,DIS
+1140,activated,activated,SIR,DIS
+1143,non responder,non responder,SR,SAL
+1144,activated,activated,FF,SAL
+1145,non responder,non responder,SIR,SAL
+1146,non responder,non responder,FF,SAL
+1148,non responder,non responder,SR,SAL
+1149,non responder,non responder,FF,SAL
+1150,non responder,activated,FF,SAL
+1151,inhibited,inhibited,SR,SAL
+1152,non responder,inhibited,SR,SAL
+1153,non responder,non responder,SR,SAL
+1154,non responder,non responder,SR,SAL
+1157,non responder,non responder,SR,SAL
+1159,non responder,non responder,SIR,SAL
+1166,activated,activated,SR,CIT
+1168,non responder,non responder,SIR,CIT
+1173,inhibited,non responder,SR,CIT
+1175,activated,activated,SR,CIT
+1176,non responder,non responder,SR,DIS
+1178,non responder,inhibited,SR,DIS
+1179,inhibited,inhibited,SIR,DIS
+1180,non responder,non responder,SIR,DIS
+1181,activated,activated,SIR,DIS
+1182,activated,activated,SR,DIS
+1183,non responder,non responder,SR,DIS
+1184,inhibited,inhibited,SR,DIS
+1186,non responder,non responder,SR,DIS
+1187,non responder,non responder,SIR,DIS
+1190,inhibited,inhibited,SIR,DIS
+1191,non responder,non responder,SIR,DIS
+1192,non responder,non responder,SIR,DIS
+1193,non responder,non responder,SR,DIS
+1194,inhibited,inhibited,SIR,DIS
+1195,activated,activated,SIR,DIS
+1196,non responder,non responder,SIR,DIS
+1197,non responder,non responder,SIR,DIS
+1198,non responder,non responder,SIR,DIS
+1201,non responder,inhibited,SR,DIS
+1202,non responder,non responder,SIR,DIS
+1203,non responder,non responder,SIR,DIS
+1204,non responder,non responder,SR,DIS
+1205,inhibited,inhibited,SR,DIS
+1208,non responder,non responder,SIR,DIS
+1209,non responder,non responder,SIR,DIS
+1210,non responder,non responder,SIR,DIS
+1211,non responder,non responder,SR,DIS
+1212,inhibited,non responder,SIR,DIS
+1214,non responder,non responder,SR,DIS
+1215,inhibited,non responder,SIR,DIS
+1216,non responder,non responder,SIR,DIS
+1219,inhibited,inhibited,SR,DIS
+1220,activated,activated,SIR,DIS
+1221,inhibited,non responder,SR,DIS
+1222,activated,non responder,SR,DIS
+1224,non responder,activated,SR,DIS
+1226,non responder,non responder,SIR,DIS
+1227,activated,activated,FF,DIS
+1229,activated,non responder,FF,DIS
+1230,activated,activated,FF,DIS
+1231,activated,activated,SR,DIS
+1232,activated,activated,SR,DIS
+1233,non responder,non responder,SR,DIS
+1234,activated,activated,SR,DIS
+1235,non responder,activated,SR,DIS
+1236,non responder,non responder,SIR,DIS
+1237,activated,activated,SR,DIS
+1238,inhibited,non responder,FF,DIS
+1240,activated,non responder,SIR,DIS
+1241,activated,activated,SR,DIS
+1242,activated,non responder,SR,DIS
+1244,activated,activated,SIR,DIS
+1245,activated,non responder,SIR,DIS
+1250,non responder,non responder,SIR,CIT
+1255,inhibited,inhibited,SR,CIT
+1261,inhibited,inhibited,SR,CIT
+1263,non responder,non responder,SIR,CIT
+1264,inhibited,inhibited,SR,CIT
+1265,inhibited,non responder,SIR,CIT
+1266,non responder,non responder,SIR,CIT
+1267,non responder,inhibited,SR,CIT
+1269,inhibited,inhibited,SR,CIT
+1270,non responder,inhibited,SR,CIT
+1272,inhibited,inhibited,SIR,CIT
+1273,non responder,non responder,SIR,CIT
+1274,activated,activated,SR,CIT
+1276,inhibited,inhibited,SR,CIT
+1277,non responder,non responder,SIR,CIT
+1280,inhibited,inhibited,SIR,CIT
+1281,non responder,non responder,SIR,CIT
+1283,non responder,non responder,SIR,CIT
+1284,inhibited,inhibited,SR,CIT
+1285,non responder,non responder,SR,CIT
+1287,activated,non responder,SIR,CIT
+1289,activated,activated,SR,CIT
+1291,non responder,non responder,SIR,CIT
+1292,non responder,non responder,SR,CIT
+1294,non responder,inhibited,SIR,CIT
+1299,activated,activated,SIR,CIT
+1301,inhibited,inhibited,SR,CIT
+1302,non responder,non responder,SIR,CIT
+1303,inhibited,inhibited,SIR,CIT
+1305,activated,non responder,SIR,CIT
+1312,non responder,non responder,SR,CIT
+1314,activated,non responder,SIR,CIT
+1315,inhibited,inhibited,SR,CIT
+1316,inhibited,inhibited,SR,CIT
+1317,activated,activated,SR,CIT
+1318,non responder,non responder,SIR,CIT
+1319,non responder,non responder,SIR,CIT
+1320,non responder,non responder,SR,CIT
+1321,non responder,non responder,SR,CIT
+1322,non responder,non responder,SR,CIT
+1329,activated,activated,SR,CIT
+1330,inhibited,inhibited,FF,CIT
+1331,inhibited,inhibited,SR,CIT
+1332,inhibited,inhibited,SR,CIT
+1333,non responder,non responder,SIR,CIT
+1334,non responder,inhibited,SR,CIT
+1336,non responder,non responder,SR,CIT
+1338,inhibited,inhibited,FF,CIT
+1339,non responder,inhibited,SIR,CIT
+1341,inhibited,inhibited,SR,CIT
+1342,inhibited,inhibited,SIR,CIT
+1343,activated,non responder,SIR,CIT
+1345,activated,activated,SIR,CIT
+1347,non responder,non responder,SIR,CIT
+1349,activated,activated,SR,CIT
+1350,non responder,activated,SIR,SAL
+1353,non responder,non responder,SIR,SAL
+1354,non responder,non responder,SIR,SAL
+1356,non responder,activated,SR,SAL
+1357,non responder,non responder,SR,SAL
+1361,activated,activated,SR,SAL
+1363,non responder,non responder,SR,SAL
+1364,non responder,non responder,SR,SAL
+1366,inhibited,non responder,SR,SAL
+1367,non responder,non responder,SR,SAL
+1368,non responder,activated,SIR,SAL
+1369,non responder,non responder,FF,SAL
+1370,non responder,non responder,SIR,SAL
+1371,non responder,non responder,SR,SAL
+1373,activated,activated,SR,SAL
+1378,inhibited,inhibited,SR,SAL
+1379,activated,activated,SR,SAL
+1380,non responder,non responder,SIR,SAL
+1383,activated,activated,FF,SAL
+1384,non responder,activated,FF,SAL
+1385,activated,activated,SR,SAL
+1386,non responder,non responder,FF,SAL
+1387,activated,activated,SIR,SAL
+1389,activated,activated,SR,SAL
+1391,non responder,non responder,SR,SAL
+1392,non responder,non responder,SIR,SAL
+1393,non responder,non responder,SR,SAL
+1394,inhibited,inhibited,SR,SAL
+1395,non responder,non responder,SR,SAL
+1398,inhibited,non responder,FF,SAL
+1401,non responder,non responder,SIR,SAL
+1405,non responder,non responder,SR,SAL
+1406,non responder,activated,SR,SAL
+1407,non responder,non responder,SIR,SAL
+1410,non responder,non responder,SIR,SAL
+1412,non responder,non responder,SR,SAL
+1413,inhibited,non responder,SR,SAL
+1414,inhibited,non responder,SR,CIT
+1416,inhibited,inhibited,SR,CIT
+1417,activated,activated,SIR,CIT
+1426,non responder,non responder,SIR,CIT
+1434,activated,activated,SIR,CIT
+1435,activated,activated,SR,CIT
+1437,inhibited,inhibited,SR,CIT
+1438,non responder,non responder,SIR,CIT
+1439,inhibited,inhibited,SIR,CIT
+1440,non responder,non responder,SIR,CIT
+1441,non responder,non responder,SIR,CIT
+1442,inhibited,inhibited,SR,CIT
+1443,non responder,non responder,SR,CIT
+1445,inhibited,inhibited,SR,CIT
+1446,activated,activated,SIR,CIT
+1447,inhibited,inhibited,SR,CIT
+1448,activated,activated,SIR,CIT
+1452,activated,non responder,SIR,CIT
+1455,non responder,non responder,SIR,CIT
+1458,activated,activated,SIR,CIT
+1459,activated,activated,SIR,CIT
+1460,activated,activated,SIR,CIT
+1461,non responder,non responder,FF,CIT
+1463,activated,activated,SIR,CIT
+1465,non responder,activated,SIR,CIT
+1467,non responder,non responder,SIR,CIT
+1469,inhibited,inhibited,SIR,CIT
+1470,inhibited,inhibited,SR,CIT
+1471,inhibited,inhibited,SR,CIT
+1474,non responder,non responder,SR,CIT
+1475,non responder,inhibited,SR,CIT
+1479,activated,activated,SIR,CIT
+1480,non responder,non responder,SIR,CIT
+1481,activated,activated,SIR,CIT
+1482,non responder,non responder,SR,CIT
+1483,non responder,non responder,SIR,CIT
+1484,non responder,inhibited,SIR,CIT
+1485,activated,activated,SIR,CIT
+1486,activated,activated,SR,CIT
+1487,activated,activated,SIR,CIT
+1488,activated,activated,SIR,CIT
+1490,non responder,non responder,SR,CIT
+1491,non responder,non responder,SIR,CIT
+1494,non responder,non responder,SR,SAL
+1495,inhibited,inhibited,SR,SAL
+1496,inhibited,inhibited,SR,SAL
+1497,inhibited,inhibited,SR,SAL
+1498,non responder,non responder,SIR,SAL
+1499,inhibited,inhibited,SR,SAL
+1500,activated,activated,SR,SAL
+1501,inhibited,inhibited,SR,SAL
+1502,non responder,inhibited,SR,SAL
+1504,inhibited,inhibited,FF,SAL
+1505,inhibited,inhibited,SR,SAL
+1507,inhibited,inhibited,SR,SAL
+1509,inhibited,inhibited,SR,SAL
+1510,inhibited,inhibited,FF,SAL
+1511,inhibited,non responder,SR,SAL
+1512,inhibited,inhibited,SR,SAL
+1513,inhibited,inhibited,SR,SAL
+1514,inhibited,inhibited,SR,SAL
+1515,inhibited,inhibited,SR,SAL
+1516,activated,activated,SIR,SAL
+1517,activated,activated,SIR,SAL
+1519,activated,activated,SIR,SAL
+1521,non responder,non responder,SIR,SAL
+1522,activated,activated,SIR,SAL
+1523,activated,activated,SR,SAL
+1525,activated,activated,SIR,SAL
+1526,non responder,non responder,FF,SAL
+1529,non responder,non responder,SR,SAL
+1530,inhibited,non responder,SR,SAL
+1531,inhibited,non responder,SR,SAL
+1532,inhibited,inhibited,SR,SAL
+1533,activated,activated,FF,SAL
+1535,activated,activated,SIR,SAL
+1536,inhibited,inhibited,FF,SAL
+1537,activated,activated,SIR,SAL
+1538,activated,activated,SIR,SAL
+1540,inhibited,inhibited,SR,SAL
+1541,inhibited,inhibited,SR,SAL
+1542,activated,activated,SIR,SAL
+1544,non responder,non responder,SIR,SAL
+1547,inhibited,non responder,SR,SAL
+1548,non responder,activated,SIR,SAL
+1550,non responder,activated,FF,SAL
+1551,activated,activated,FF,SAL
+1554,non responder,inhibited,SR,CIT
+1556,non responder,non responder,SR,CIT
+1557,non responder,non responder,SR,CIT
+1558,non responder,non responder,SIR,CIT
+1559,non responder,non responder,SR,CIT
+1560,non responder,non responder,SR,CIT
+1562,inhibited,inhibited,SR,CIT
+1563,non responder,non responder,SIR,CIT
+1564,inhibited,inhibited,SR,CIT
+1565,non responder,non responder,SR,CIT
+1567,activated,activated,SIR,CIT
+1568,non responder,non responder,SIR,CIT
+1569,inhibited,inhibited,SIR,CIT
+1570,inhibited,inhibited,SR,CIT
+1572,activated,activated,SR,CIT
+1573,non responder,non responder,SR,CIT
+1574,activated,activated,SR,CIT
+1575,activated,non responder,SR,CIT
+1577,non responder,non responder,SR,CIT
+1578,activated,activated,SIR,CIT
+1579,activated,activated,SIR,CIT
+1580,activated,activated,SIR,CIT
+1581,non responder,inhibited,SR,CIT
+1582,inhibited,inhibited,SR,CIT
+1584,non responder,non responder,SIR,CIT
+1585,non responder,non responder,SR,CIT
+1586,activated,activated,SIR,CIT
+1587,non responder,non responder,SIR,CIT
+1588,inhibited,inhibited,SR,CIT
+1589,activated,activated,SIR,CIT
+1590,non responder,non responder,SR,CIT
+1592,non responder,non responder,SIR,CIT
+1593,non responder,non responder,SR,CIT
+1594,activated,activated,SIR,CIT
+1595,activated,activated,SIR,CIT
+1596,activated,non responder,SR,CIT
+1598,non responder,non responder,SR,CIT
+1600,non responder,inhibited,SIR,CIT
+1602,non responder,non responder,SR,CIT
+1603,non responder,non responder,SR,CIT
+1604,non responder,non responder,SIR,CIT
+1605,activated,activated,SIR,CIT
+1606,activated,activated,SIR,CIT
+1609,non responder,non responder,SR,CIT
+1610,inhibited,inhibited,SIR,CIT
+1611,inhibited,non responder,SR,CIT
+2005,inhibited,inhibited,SR,DIS
+2009,inhibited,non responder,SR,DIS
+2010,inhibited,inhibited,SR,DIS
+2014,non responder,non responder,SR,DIS
+2016,activated,activated,FF,DIS
+2017,activated,activated,SIR,DIS
+2018,inhibited,inhibited,SIR,DIS
+2020,non responder,non responder,FF,DIS
+2022,inhibited,inhibited,FF,DIS
+2023,activated,activated,SIR,DIS
+2026,activated,activated,SIR,DIS
+2031,inhibited,inhibited,SIR,DIS
+2034,activated,activated,SIR,DIS
+2035,non responder,non responder,SIR,DIS
+2036,activated,non responder,SIR,DIS
+2037,inhibited,inhibited,SR,DIS
+2038,inhibited,inhibited,SR,DIS
+2041,inhibited,inhibited,SIR,DIS
+2047,non responder,non responder,SR,DIS
+2048,inhibited,inhibited,SR,DIS
+2049,inhibited,inhibited,FF,DIS
+2050,inhibited,inhibited,SR,DIS
+2052,non responder,non responder,SR,DIS
+2055,inhibited,inhibited,SR,DIS
+2057,non responder,non responder,SR,DIS
+2058,activated,activated,SR,DIS
+2059,inhibited,inhibited,SR,DIS
+2060,inhibited,inhibited,SR,DIS
+2061,inhibited,inhibited,SR,DIS
+2062,inhibited,inhibited,SIR,DIS
+2065,inhibited,inhibited,SR,DIS
+2066,inhibited,non responder,SR,DIS
+2067,non responder,non responder,SIR,DIS
+2069,non responder,non responder,SIR,DIS
+2072,non responder,activated,SIR,DIS
+2073,non responder,non responder,SIR,DIS
+2074,inhibited,inhibited,SR,DIS
+2075,inhibited,inhibited,SR,DIS
+2076,inhibited,inhibited,SR,DIS
+2077,inhibited,non responder,FF,DIS
+2078,activated,activated,SR,DIS
+2079,inhibited,activated,SR,DIS
+2081,activated,activated,FF,DIS
+2082,activated,activated,SR,DIS
+2083,activated,activated,SIR,DIS
+2084,activated,activated,SIR,DIS
+2087,non responder,non responder,SIR,DIS
+2091,activated,activated,SIR,DIS
+2099,activated,activated,SIR,DIS
+2101,non responder,non responder,SIR,DIS
+2102,activated,activated,SR,DIS
+2103,non responder,non responder,SIR,DIS
+2104,activated,activated,SIR,DIS
+2107,non responder,non responder,SR,DIS
+2108,activated,activated,SIR,DIS
+2111,activated,activated,SIR,DIS
+2112,activated,activated,SIR,DIS
+2120,activated,activated,SIR,DIS
+2125,inhibited,non responder,SIR,DIS
+2126,non responder,activated,SR,DIS
+2127,activated,activated,SIR,DIS
+2128,activated,activated,SIR,DIS
+2130,activated,activated,SR,DIS
+2135,inhibited,inhibited,SR,DIS
+2136,non responder,non responder,SIR,DIS
+2137,inhibited,non responder,SR,DIS
+2138,non responder,non responder,SIR,DIS
+2139,non responder,non responder,SIR,DIS
+2144,inhibited,inhibited,SIR,DIS
+2147,inhibited,non responder,SR,DIS
+2152,non responder,non responder,SIR,DIS
+2155,non responder,non responder,SIR,DIS
+2162,inhibited,inhibited,SR,DIS
+2165,activated,non responder,SIR,DIS
+2166,non responder,non responder,SIR,DIS
+2173,non responder,non responder,SIR,DIS
+2174,non responder,non responder,SIR,DIS
+2176,inhibited,inhibited,SR,DIS
+2177,inhibited,inhibited,SIR,DIS
+2178,activated,activated,SIR,DIS
+2181,non responder,non responder,SIR,DIS
+2183,non responder,non responder,FF,DIS
+2184,non responder,non responder,SIR,DIS
+2185,inhibited,inhibited,SIR,DIS
+2186,inhibited,inhibited,SR,DIS
+2187,non responder,non responder,SIR,DIS
+2188,inhibited,inhibited,SIR,DIS
+2189,non responder,non responder,SIR,DIS
+2191,non responder,non responder,SR,DIS
+2192,inhibited,inhibited,SIR,DIS
+2193,non responder,non responder,SIR,DIS
+2198,non responder,non responder,SIR,DIS
+2200,inhibited,inhibited,SIR,DIS
+2202,inhibited,inhibited,SR,DIS
+2208,inhibited,inhibited,SIR,DIS
+2211,inhibited,inhibited,SIR,DIS
+2212,inhibited,non responder,SR,DIS
+2213,inhibited,inhibited,SR,DIS
+2214,inhibited,inhibited,SR,DIS
+2217,inhibited,inhibited,SIR,DIS
+2220,inhibited,non responder,SR,DIS
+2222,inhibited,inhibited,SR,DIS
+2225,inhibited,inhibited,SR,DIS
+2233,inhibited,inhibited,SIR,DIS
+2235,non responder,non responder,SIR,DIS
+2236,activated,non responder,SIR,DIS
+2241,non responder,non responder,SIR,DIS
+2242,non responder,activated,SIR,DIS
+2243,non responder,non responder,SR,DIS
+2244,activated,activated,SIR,DIS
+2246,non responder,non responder,SR,DIS
+2247,activated,non responder,SIR,DIS
+2248,activated,activated,SIR,DIS
+2249,non responder,non responder,SR,DIS
+2250,activated,activated,SIR,DIS
+2251,non responder,activated,SIR,DIS
+2252,non responder,non responder,SR,DIS
+2260,non responder,non responder,FF,DIS
+2266,non responder,non responder,SIR,DIS
+2270,activated,activated,SIR,DIS
+2271,activated,activated,SIR,DIS
+2278,activated,activated,SIR,DIS
+2279,activated,activated,SR,DIS
+2280,activated,non responder,SR,DIS
+2281,non responder,non responder,SIR,DIS
+2282,activated,non responder,SR,DIS
+2283,inhibited,inhibited,SR,DIS
+2284,non responder,activated,SIR,DIS
+2285,inhibited,inhibited,SR,DIS
+2287,inhibited,inhibited,SR,DIS
