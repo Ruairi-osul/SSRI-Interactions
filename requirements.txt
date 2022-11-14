@@ -7,7 +7,7 @@ numba
 scipy
 seaborn
 matplotlib
-scikit-learn
+scikit-learn==1.1.1
 pingouin
 statsmodels
 pymer4
@@ -22,3 +22,4 @@ mypy
 jupyter
 black
 neurodsp
+ezbootstrap
