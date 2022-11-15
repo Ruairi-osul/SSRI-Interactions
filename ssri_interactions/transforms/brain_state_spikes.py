@@ -34,10 +34,9 @@ def align_bins_to_states_long(
 ) -> pd.DataFrame:
     spikes = spikes_handler.binned.copy()
     meta = load_neurons()[["neuron_id", "session_name", "group_name"]]
-    spikes = meta.merge(spikes, left_on="neuron_id", right_on="neuron_id")
+    spikes = meta.merge(spikes, on=["neuron_id", "session_name"])
     states = states_handler.states_df.copy()
     time_after = states[states_handler.time_column].diff().values[0]
-
     df_aligned = align_to_state(
         df_data=spikes,
         df_state=states,
@@ -48,7 +47,7 @@ def align_bins_to_states_long(
         df_data_session_col="session_name",
     )
     if neuron_types is not None:
-        df_aligned = df_aligned.merge(neuron_types,)
+        df_aligned = df_aligned.merge(neuron_types, on=["neuron_id", "session_name", "group_name"])
     return df_aligned
 
 
@@ -59,10 +58,9 @@ def align_spikes_to_states_long(
 ) -> pd.DataFrame:
     spikes = spikes_handler.spikes.copy()
     meta = load_neurons()[["neuron_id", "session_name", "group_name"]]
-    spikes = meta.merge(spikes, left_on="neuron_id", right_on="neuron_id")
+    spikes = meta.merge(spikes, on=["neuron_id", "session_name"])
     states = states_handler.states_df.copy()
     time_after = states[states_handler.time_column].diff().values[0]
-
     df_aligned = align_to_state(
         df_data=spikes,
         df_state=states,
@@ -73,7 +71,7 @@ def align_spikes_to_states_long(
         df_data_session_col="session_name",
     )
     if neuron_types is not None:
-        df_aligned = df_aligned.merge(neuron_types,)
+        df_aligned = df_aligned.merge(neuron_types, on=["neuron_id", "session_name", "group_name"])
     return df_aligned
 
 
@@ -92,9 +90,9 @@ def align_spikes_to_phase_long(
         neuron_types=neuron_types,
     )
     eeg = raw_eeg_handler.raw_eeg_df
-
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore")
+
         df_aligned = get_closest_event(
             df_data=spikes_with_state,
             df_events=eeg,
