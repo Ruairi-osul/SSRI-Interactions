@@ -9,7 +9,6 @@ from pathlib import Path
 from .loaders import StateDecodeDataLoader
 from .preprocessors import StateDecodePreprocessor
 import pandas as pd
-import numpy as np
 from ssri_interactions.io import load_eeg
 
 
@@ -18,13 +17,17 @@ class EEGDecodeLoader:
         self,
         states_path: Optional[Path] = None,
         neuron_types_path: Optional[Path] = None,
+        sessions = None,
         neuron_type_col: str = "neuron_type",
+        stft_loader: callable = None
     ):
         self.states_path = states_path or Config.derived_data_dir / "eeg_states.csv"
         self.neuron_types_path = (
             neuron_types_path or Config.derived_data_dir / "neuron_types.csv"
         )
         self.neuron_type_col = neuron_type_col
+        self._stft_loader = stft_loader or load_eeg
+        self.sessions = sessions or ExperimentInfo.eeg_sessions
 
     @property
     def eeg_states(self):
@@ -35,12 +38,8 @@ class EEGDecodeLoader:
         return pd.read_csv(self.neuron_types_path)
 
     @property
-    def sessions(self):
-        return ExperimentInfo.eeg_sessions
-
-    @property
     def df_fft(self):
-        return load_eeg("pre").query("frequency < 8 and frequency > 0")
+        return self._stft_loader("pre").query("frequency < 8 and frequency > 0")
 
     def load_metadata(self):
         """Load data not bound to a specific session
@@ -65,6 +64,7 @@ class EEGDecodeLoader:
             t_start=t_start,
             t_stop=t_stop,
             bin_width=bin_width,
+            states_path=self.states_path,
         )
         preprocessor = StateDecodePreprocessor(thresh_empty=2)
         spikes, states = loader()
