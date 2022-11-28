@@ -12,8 +12,8 @@ theme_set(
       text=element_text(family="Arial"),
       strip.text.x = element_text(size = 9, angle=0, hjust=0.5, margin = margin(t = 0, r = 0, b = 10, l = 0)),
       strip.text.y = element_text(size = 10, angle=0, hjust=0.5, margin = margin(t = 0, r = 0, b = 10, l = 0)),
-      panel.spacing.x = unit(0.5, "lines"),
-      panel.spacing.y = unit(2.5, "lines"),
+      panel.spacing.x = unit(0.2, "lines"),
+      panel.spacing.y = unit(1.5, "lines"),
       axis.text.x = element_text(size=9, angle=0),
       axis.text.y = element_text(size=9),
       legend.text = element_text(size=9),
@@ -26,6 +26,9 @@ theme_set(
       plot.title = element_text(size=9, face="plain", margin = margin(t = 0, r = 0, b = 5, l = 0))
     )
 )
+
+# dirs 
+fig_dir <- file.path("figs", "spiketrain_props")
 
 # Load Data
 
@@ -62,7 +65,7 @@ p_neuron_type_stats <- neuron_types_long_stats %>%
     stat="identity",  
     color="black", 
     width=0.5, 
-    position=position_dodge(preserve = "single", width=0.8)
+    position=position_dodge(preserve = "single", width=0.2)
   ) +
   geom_errorbar(
     width=0.28, 
@@ -78,6 +81,8 @@ p_neuron_type_stats <- neuron_types_long_stats %>%
     strip.text.x = element_text(size=12, margin = margin(b=18))
   )
 p_neuron_type_stats
+
+ggsave(file.path(fig_dir, "neuron_props_bars.png"), dpi=300, width=4, height=4)
 
 #### NT Stats Stats
 
@@ -132,7 +137,7 @@ p_prop_neuron_types <- neuron_types %>%
   drop_na() %>%
   group_by(group, neuron_type) %>%
   summarise(n = n()) %>%
-  mutate(freq = n / sum(n)) %>%
+  mutate(freq = (n / sum(n)) * 100 ) %>%
   ggplot(
     aes(x=neuron_type, y=freq, fill=group)
   ) +
@@ -143,8 +148,11 @@ p_prop_neuron_types <- neuron_types %>%
     position=position_dodge(preserve = "single", width=0.8)
   ) +
   scale_fill_manual(values=c(SAL="grey", CIT="black")) +
+  guides(fill="none") +
   labs(y="")
 
+p_prop_neuron_types
+ggsave(file.path(fig_dir, "proportion_neuron_types.png"), dpi=300, width=2, height=1.5)
 
 ######### Volatility
 
@@ -191,7 +199,7 @@ p_vol <- nt_vol_long_stats %>%
     strip.text.x = element_text(size=12, margin = margin(b=18))
   )
 
-
+p_vol
 ### Volatility Stats
 
 # Volatility Regularity
