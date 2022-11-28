@@ -1,39 +1,39 @@
 A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_inv,response,session_name,neuron_type
-2Shock,3Post,-0.16,-0.55,0.39,0.05,7.66,0.0,0.44,1069,-0.39,0.0,True,-0.39,inhibited,hamilton_01,SIR
+2Shock,3Post,-0.16,-0.55,0.39,0.05,7.66,0.0,0.44,1069,-0.39,0.0,False,-0.39,non responder,hamilton_01,SIR
 2Shock,3Post,1.79,0.04,1.74,0.06,30.74,0.0,1.77,1070,-1.74,0.0,True,-1.74,inhibited,hamilton_01,SIR
 2Shock,3Post,1.42,0.43,0.99,0.08,12.63,0.0,0.73,1071,-0.99,0.0,True,-0.99,inhibited,hamilton_01,FF
 2Shock,3Post,0.31,-2.13,2.44,0.07,34.43,0.0,1.99,1072,-2.44,0.0,True,-2.44,inhibited,hamilton_01,FF
 2Shock,3Post,-0.14,-1.67,1.53,0.06,27.45,0.0,1.58,1074,-1.53,0.0,True,-1.53,inhibited,hamilton_01,SIR
 2Shock,3Post,-1.07,-1.49,0.42,0.04,10.63,0.0,0.61,1075,-0.42,0.0,True,-0.42,inhibited,hamilton_01,SR
 2Shock,3Post,-0.23,2.82,-3.05,0.08,-37.64,0.0,-2.17,1076,3.05,0.0,True,3.05,activated,hamilton_01,SIR
-2Shock,3Post,-0.16,-0.41,0.25,0.05,4.74,0.0,0.27,1078,-0.25,0.0,True,-0.25,inhibited,hamilton_01,SR
+2Shock,3Post,-0.16,-0.41,0.25,0.05,4.74,0.0,0.27,1078,-0.25,0.0,False,-0.25,non responder,hamilton_01,SR
 2Shock,3Post,-1.02,-1.04,0.02,0.03,0.5,0.87,0.03,1079,-0.02,0.9,False,-0.02,non responder,hamilton_01,SIR
 2Shock,3Post,3.91,2.36,1.54,0.1,15.62,0.0,0.9,1082,-1.54,0.0,True,-1.54,inhibited,hamilton_01,SIR
-2Shock,3Post,-0.32,-0.66,0.34,0.04,7.48,0.0,0.43,1084,-0.34,0.0,True,-0.34,inhibited,hamilton_01,SIR
+2Shock,3Post,-0.32,-0.66,0.34,0.04,7.48,0.0,0.43,1084,-0.34,0.0,False,-0.34,non responder,hamilton_01,SIR
 2Shock,3Post,1.54,0.36,1.18,0.05,22.75,0.0,1.31,1085,-1.18,0.0,True,-1.18,inhibited,hamilton_01,SR
-2Shock,3Post,-0.8,-1.05,0.25,0.05,5.23,0.0,0.3,1087,-0.25,0.0,True,-0.25,inhibited,hamilton_01,SIR
+2Shock,3Post,-0.8,-1.05,0.25,0.05,5.23,0.0,0.3,1087,-0.25,0.0,False,-0.25,non responder,hamilton_01,SIR
 2Shock,3Post,-0.46,0.86,-1.33,0.06,-21.13,0.0,-1.22,1088,1.33,0.0,True,1.33,activated,hamilton_02,SIR
 2Shock,3Post,1.09,0.02,1.07,0.07,16.46,0.0,0.95,1093,-1.07,0.0,True,-1.07,inhibited,hamilton_02,SIR
-2Shock,3Post,1.49,1.8,-0.32,0.07,-4.36,0.0,-0.25,1094,0.32,0.0,True,0.32,activated,hamilton_02,SIR
+2Shock,3Post,1.49,1.8,-0.32,0.07,-4.36,0.0,-0.25,1094,0.32,0.0,False,0.32,non responder,hamilton_02,SIR
 2Shock,3Post,11.16,10.73,0.42,0.17,2.42,0.04,0.14,1095,-0.42,0.05,True,-0.42,inhibited,hamilton_02,SR
 2Shock,3Post,1.18,1.12,0.06,0.07,0.97,0.6,0.06,1098,-0.06,0.62,False,-0.06,non responder,hamilton_02,SIR
 2Shock,3Post,1.33,-0.75,2.07,0.06,34.55,0.0,1.99,1100,-2.07,0.0,True,-2.07,inhibited,hamilton_02,SR
-2Shock,3Post,5.15,5.46,-0.32,0.09,-3.6,0.0,-0.21,1102,0.32,0.0,True,0.32,activated,hamilton_02,SIR
+2Shock,3Post,5.15,5.46,-0.32,0.09,-3.6,0.0,-0.21,1102,0.32,0.0,False,0.32,non responder,hamilton_02,SIR
 2Shock,3Post,0.01,-0.53,0.53,0.06,9.2,0.0,0.53,1105,-0.53,0.0,True,-0.53,inhibited,hamilton_02,SIR
 2Shock,3Post,1.75,3.04,-1.29,0.08,-15.45,0.0,-0.89,1106,1.29,0.0,True,1.29,activated,hamilton_02,SR
 2Shock,3Post,0.57,1.96,-1.39,0.08,-16.5,0.0,-0.95,1107,1.39,0.0,True,1.39,activated,hamilton_02,SR
 2Shock,3Post,-1.19,1.43,-2.62,0.06,-46.1,0.0,-2.66,1111,2.62,0.0,True,2.62,activated,hamilton_02,SR
-2Shock,3Post,-1.98,-2.3,0.32,0.04,8.41,0.0,0.49,1114,-0.32,0.0,True,-0.32,inhibited,hamilton_12,FF
+2Shock,3Post,-1.98,-2.3,0.32,0.04,8.41,0.0,0.49,1114,-0.32,0.0,False,-0.32,non responder,hamilton_12,FF
 2Shock,3Post,-0.6,1.43,-2.03,0.06,-34.78,0.0,-2.01,1116,2.03,0.0,True,2.03,activated,hamilton_12,SR
-2Shock,3Post,-0.03,0.36,-0.39,0.06,-6.24,0.0,-0.36,1119,0.39,0.0,True,0.39,activated,hamilton_12,SIR
+2Shock,3Post,-0.03,0.36,-0.39,0.06,-6.24,0.0,-0.36,1119,0.39,0.0,False,0.39,non responder,hamilton_12,SIR
 2Shock,3Post,-0.81,-0.25,-0.56,0.06,-9.98,0.0,-0.58,1121,0.56,0.0,True,0.56,activated,hamilton_12,SR
 2Shock,3Post,1.11,-0.8,1.91,0.06,30.33,0.0,1.75,1123,-1.91,0.0,True,-1.91,inhibited,hamilton_12,FF
 2Shock,3Post,0.12,-0.74,0.87,0.05,17.82,0.0,1.03,1124,-0.87,0.0,True,-0.87,inhibited,hamilton_12,SIR
 2Shock,3Post,0.64,-0.04,0.68,0.08,8.29,0.0,0.48,1127,-0.68,0.0,True,-0.68,inhibited,hamilton_12,SR
 2Shock,3Post,-0.2,-0.19,-0.01,0.04,-0.2,0.98,-0.01,1129,0.01,0.99,False,0.01,non responder,hamilton_12,SR
 2Shock,3Post,0.13,-0.55,0.68,0.05,13.04,0.0,0.75,1131,-0.68,0.0,True,-0.68,inhibited,hamilton_12,SIR
-2Shock,3Post,-0.77,-1.04,0.27,0.04,6.81,0.0,0.39,1136,-0.27,0.0,True,-0.27,inhibited,hamilton_12,SR
-2Shock,3Post,0.48,0.11,0.37,0.06,5.75,0.0,0.33,1137,-0.37,0.0,True,-0.37,inhibited,hamilton_12,SIR
+2Shock,3Post,-0.77,-1.04,0.27,0.04,6.81,0.0,0.39,1136,-0.27,0.0,False,-0.27,non responder,hamilton_12,SR
+2Shock,3Post,0.48,0.11,0.37,0.06,5.75,0.0,0.33,1137,-0.37,0.0,False,-0.37,non responder,hamilton_12,SIR
 2Shock,3Post,0.5,-0.3,0.8,0.05,15.26,0.0,0.88,1138,-0.8,0.0,True,-0.8,inhibited,hamilton_12,SIR
 2Shock,3Post,-0.45,-0.38,-0.07,0.06,-1.17,0.47,-0.07,1139,0.07,0.5,False,0.07,non responder,hamilton_12,SIR
 2Shock,3Post,0.21,1.03,-0.82,0.07,-12.35,0.0,-0.71,1140,0.82,0.0,True,0.82,activated,hamilton_12,SIR
@@ -43,10 +43,10 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-0.67,0.3,-0.97,0.07,-14.64,0.0,-0.84,1146,0.97,0.0,True,0.97,activated,hamilton_13,FF
 2Shock,3Post,1.33,3.3,-1.98,0.07,-28.98,0.0,-1.67,1148,1.98,0.0,True,1.98,activated,hamilton_13,SR
 2Shock,3Post,-4.42,-4.86,0.44,0.05,8.96,0.0,0.52,1149,-0.44,0.0,True,-0.44,inhibited,hamilton_13,FF
-2Shock,3Post,-2.04,-2.26,0.22,0.04,5.26,0.0,0.3,1150,-0.22,0.0,True,-0.22,inhibited,hamilton_13,FF
+2Shock,3Post,-2.04,-2.26,0.22,0.04,5.26,0.0,0.3,1150,-0.22,0.0,False,-0.22,non responder,hamilton_13,FF
 2Shock,3Post,0.82,0.24,0.58,0.1,5.65,0.0,0.33,1151,-0.58,0.0,True,-0.58,inhibited,hamilton_13,SR
 2Shock,3Post,1.25,0.51,0.75,0.09,7.88,0.0,0.46,1152,-0.75,0.0,True,-0.75,inhibited,hamilton_13,SR
-2Shock,3Post,-1.1,-0.86,-0.24,0.04,-6.69,0.0,-0.39,1153,0.24,0.0,True,0.24,activated,hamilton_13,SR
+2Shock,3Post,-1.1,-0.86,-0.24,0.04,-6.69,0.0,-0.39,1153,0.24,0.0,False,0.24,non responder,hamilton_13,SR
 2Shock,3Post,-0.08,-1.25,1.17,0.06,19.75,0.0,1.14,1154,-1.17,0.0,True,-1.17,inhibited,hamilton_13,SR
 2Shock,3Post,2.58,0.21,2.37,0.07,32.59,0.0,1.88,1157,-2.37,0.0,True,-2.37,inhibited,hamilton_13,SR
 2Shock,3Post,2.31,1.65,0.66,0.15,4.26,0.0,0.25,1159,-0.66,0.0,True,-0.66,inhibited,hamilton_13,SIR
@@ -57,7 +57,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,0.09,0.23,-0.14,0.06,-2.31,0.06,-0.13,1176,0.14,0.06,False,0.14,non responder,hamilton_05,SR
 2Shock,3Post,-0.04,1.43,-1.47,0.4,-3.64,0.0,-0.21,1177,1.47,0.0,True,1.47,activated,hamilton_05,SIR
 2Shock,3Post,-0.1,-0.1,-0.0,0.06,-0.02,1.0,-0.0,1178,0.0,1.0,False,0.0,non responder,hamilton_05,SR
-2Shock,3Post,0.26,-0.04,0.29,0.07,4.08,0.0,0.24,1179,-0.29,0.0,True,-0.29,inhibited,hamilton_05,SIR
+2Shock,3Post,0.26,-0.04,0.29,0.07,4.08,0.0,0.24,1179,-0.29,0.0,False,-0.29,non responder,hamilton_05,SIR
 2Shock,3Post,-0.57,0.63,-1.2,0.07,-16.89,0.0,-0.98,1180,1.2,0.0,True,1.2,activated,hamilton_05,SIR
 2Shock,3Post,-0.33,0.09,-0.42,0.05,-8.02,0.0,-0.46,1181,0.42,0.0,True,0.42,activated,hamilton_05,SIR
 2Shock,3Post,0.21,-1.3,1.51,0.04,36.51,0.0,2.11,1182,-1.51,0.0,True,-1.51,inhibited,hamilton_05,SR
@@ -76,20 +76,20 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-0.19,-0.26,0.07,0.05,1.57,0.26,0.09,1198,-0.07,0.28,False,-0.07,non responder,hamilton_17,SIR
 2Shock,3Post,0.09,-0.01,0.11,0.06,1.76,0.18,0.1,1201,-0.11,0.2,False,-0.11,non responder,hamilton_17,SR
 2Shock,3Post,-0.94,0.16,-1.11,0.06,-19.13,0.0,-1.1,1202,1.11,0.0,True,1.11,activated,hamilton_17,SIR
-2Shock,3Post,-0.21,-0.45,0.24,0.05,5.11,0.0,0.3,1203,-0.24,0.0,True,-0.24,inhibited,hamilton_17,SIR
-2Shock,3Post,1.43,1.14,0.29,0.07,4.01,0.0,0.23,1204,-0.29,0.0,True,-0.29,inhibited,hamilton_17,SR
+2Shock,3Post,-0.21,-0.45,0.24,0.05,5.11,0.0,0.3,1203,-0.24,0.0,False,-0.24,non responder,hamilton_17,SIR
+2Shock,3Post,1.43,1.14,0.29,0.07,4.01,0.0,0.23,1204,-0.29,0.0,False,-0.29,non responder,hamilton_17,SR
 2Shock,3Post,1.34,0.13,1.21,0.08,14.85,0.0,0.86,1205,-1.21,0.0,True,-1.21,inhibited,hamilton_17,SR
 2Shock,3Post,-0.34,-0.19,-0.15,0.05,-3.18,0.0,-0.18,1208,0.15,0.01,False,0.15,non responder,hamilton_17,SIR
 2Shock,3Post,-0.26,-0.28,0.02,0.05,0.4,0.92,0.02,1209,-0.02,0.94,False,-0.02,non responder,hamilton_17,SIR
 2Shock,3Post,-0.47,-0.56,0.09,0.05,1.97,0.12,0.11,1210,-0.09,0.13,False,-0.09,non responder,hamilton_17,SIR
 2Shock,3Post,1.39,1.35,0.04,0.07,0.57,0.83,0.03,1211,-0.04,0.86,False,-0.04,non responder,hamilton_17,SR
 2Shock,3Post,2.86,1.26,1.6,0.12,13.14,0.0,0.76,1212,-1.6,0.0,True,-1.6,inhibited,hamilton_17,SIR
-2Shock,3Post,0.83,0.55,0.29,0.07,4.41,0.0,0.25,1214,-0.29,0.0,True,-0.29,inhibited,hamilton_17,SR
+2Shock,3Post,0.83,0.55,0.29,0.07,4.41,0.0,0.25,1214,-0.29,0.0,False,-0.29,non responder,hamilton_17,SR
 2Shock,3Post,0.87,-0.44,1.31,0.07,20.16,0.0,1.16,1215,-1.31,0.0,True,-1.31,inhibited,hamilton_17,SIR
 2Shock,3Post,0.92,1.12,-0.19,0.09,-2.29,0.06,-0.13,1216,0.19,0.06,False,0.19,non responder,hamilton_17,SIR
 2Shock,3Post,1.17,0.16,1.0,0.1,9.88,0.0,0.57,1219,-1.0,0.0,True,-1.0,inhibited,hamilton_17,SR
 2Shock,3Post,0.68,-0.75,1.43,0.07,19.61,0.0,1.13,1220,-1.43,0.0,True,-1.43,inhibited,hamilton_18,SIR
-2Shock,3Post,0.05,-0.24,0.29,0.07,4.3,0.0,0.25,1221,-0.29,0.0,True,-0.29,inhibited,hamilton_18,SR
+2Shock,3Post,0.05,-0.24,0.29,0.07,4.3,0.0,0.25,1221,-0.29,0.0,False,-0.29,non responder,hamilton_18,SR
 2Shock,3Post,0.84,2.43,-1.59,0.07,-22.23,0.0,-1.28,1222,1.59,0.0,True,1.59,activated,hamilton_18,SR
 2Shock,3Post,-0.81,-1.55,0.74,0.06,11.78,0.0,0.68,1224,-0.74,0.0,True,-0.74,inhibited,hamilton_18,SR
 2Shock,3Post,0.31,-0.44,0.74,0.05,14.88,0.0,0.86,1226,-0.74,0.0,True,-0.74,inhibited,hamilton_18,SIR
@@ -99,7 +99,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,3.1,0.61,2.49,0.11,22.02,0.0,1.27,1231,-2.49,0.0,True,-2.49,inhibited,hamilton_18,SR
 2Shock,3Post,-0.64,-1.42,0.79,0.05,15.38,0.0,0.89,1232,-0.79,0.0,True,-0.79,inhibited,hamilton_18,SR
 2Shock,3Post,3.23,0.83,2.4,0.08,29.97,0.0,1.73,1233,-2.4,0.0,True,-2.4,inhibited,hamilton_18,SR
-2Shock,3Post,0.08,-0.19,0.28,0.07,4.04,0.0,0.23,1234,-0.28,0.0,True,-0.28,inhibited,hamilton_18,SR
+2Shock,3Post,0.08,-0.19,0.28,0.07,4.04,0.0,0.23,1234,-0.28,0.0,False,-0.28,non responder,hamilton_18,SR
 2Shock,3Post,0.66,-0.4,1.06,0.07,15.1,0.0,0.87,1235,-1.06,0.0,True,-1.06,inhibited,hamilton_18,SR
 2Shock,3Post,3.11,0.23,2.88,0.06,48.83,0.0,2.82,1236,-2.88,0.0,True,-2.88,inhibited,hamilton_18,SIR
 2Shock,3Post,1.38,0.69,0.7,0.07,10.14,0.0,0.59,1237,-0.7,0.0,True,-0.7,inhibited,hamilton_18,SR
@@ -120,7 +120,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-1.04,0.88,-1.92,0.06,-34.68,0.0,-2.0,1269,1.92,0.0,True,1.92,activated,hamilton_23,SR
 2Shock,3Post,-0.68,0.33,-1.01,0.06,-16.88,0.0,-0.97,1270,1.01,0.0,True,1.01,activated,hamilton_23,SR
 2Shock,3Post,-0.91,1.37,-2.28,0.06,-40.75,0.0,-2.35,1272,2.28,0.0,True,2.28,activated,hamilton_23,SIR
-2Shock,3Post,-0.3,-0.08,-0.22,0.05,-4.3,0.0,-0.25,1273,0.22,0.0,True,0.22,activated,hamilton_23,SIR
+2Shock,3Post,-0.3,-0.08,-0.22,0.05,-4.3,0.0,-0.25,1273,0.22,0.0,False,0.22,non responder,hamilton_23,SIR
 2Shock,3Post,0.41,-0.02,0.44,0.06,6.77,0.0,0.39,1274,-0.44,0.0,True,-0.44,inhibited,hamilton_23,SR
 2Shock,3Post,3.61,0.68,2.93,0.08,34.69,0.0,2.0,1276,-2.93,0.0,True,-2.93,inhibited,hamilton_23,SR
 2Shock,3Post,-0.58,0.76,-1.34,0.06,-24.37,0.0,-1.41,1277,1.34,0.0,True,1.34,activated,hamilton_23,SIR
@@ -138,14 +138,14 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,0.39,-0.15,0.53,0.06,9.02,0.0,0.52,1301,-0.53,0.0,True,-0.53,inhibited,hamilton_23,SR
 2Shock,3Post,0.96,-0.52,1.47,0.05,27.45,0.0,1.58,1302,-1.47,0.0,True,-1.47,inhibited,hamilton_23,SIR
 2Shock,3Post,0.46,-0.61,1.06,0.05,21.49,0.0,1.24,1303,-1.06,0.0,True,-1.06,inhibited,hamilton_23,SIR
-2Shock,3Post,0.15,-0.06,0.2,0.06,3.27,0.0,0.19,1305,-0.2,0.0,True,-0.2,inhibited,hamilton_23,SIR
+2Shock,3Post,0.15,-0.06,0.2,0.06,3.27,0.0,0.19,1305,-0.2,0.0,False,-0.2,non responder,hamilton_23,SIR
 2Shock,3Post,-1.47,0.47,-1.95,0.04,-45.32,0.0,-2.62,1312,1.95,0.0,True,1.95,activated,hamilton_23,SR
 2Shock,3Post,-0.44,-0.34,-0.09,0.05,-2.09,0.09,-0.12,1314,0.09,0.1,False,0.09,non responder,hamilton_23,SIR
-2Shock,3Post,0.24,0.63,-0.39,0.05,-7.37,0.0,-0.43,1315,0.39,0.0,True,0.39,activated,hamilton_23,SR
+2Shock,3Post,0.24,0.63,-0.39,0.05,-7.37,0.0,-0.43,1315,0.39,0.0,False,0.39,non responder,hamilton_23,SR
 2Shock,3Post,-0.62,0.01,-0.63,0.06,-10.75,0.0,-0.62,1316,0.63,0.0,True,0.63,activated,hamilton_23,SR
 2Shock,3Post,1.43,-0.44,1.87,0.07,27.81,0.0,1.61,1317,-1.87,0.0,True,-1.87,inhibited,hamilton_23,SR
 2Shock,3Post,0.33,-0.11,0.44,0.07,6.43,0.0,0.37,1318,-0.44,0.0,True,-0.44,inhibited,hamilton_23,SIR
-2Shock,3Post,0.53,0.15,0.38,0.07,5.52,0.0,0.32,1319,-0.38,0.0,True,-0.38,inhibited,hamilton_23,SIR
+2Shock,3Post,0.53,0.15,0.38,0.07,5.52,0.0,0.32,1319,-0.38,0.0,False,-0.38,non responder,hamilton_23,SIR
 2Shock,3Post,1.07,0.5,0.57,0.06,8.88,0.0,0.51,1320,-0.57,0.0,True,-0.57,inhibited,hamilton_23,SR
 2Shock,3Post,-0.95,0.08,-1.02,0.05,-19.08,0.0,-1.1,1321,1.02,0.0,True,1.02,activated,hamilton_23,SR
 2Shock,3Post,0.4,-0.49,0.89,0.05,16.72,0.0,0.96,1322,-0.89,0.0,True,-0.89,inhibited,hamilton_23,SR
@@ -154,7 +154,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,0.59,0.72,-0.12,0.06,-2.03,0.1,-0.12,1331,0.12,0.12,False,0.12,non responder,hamilton_23,SR
 2Shock,3Post,0.94,-0.46,1.4,0.05,25.5,0.0,1.47,1332,-1.4,0.0,True,-1.4,inhibited,hamilton_23,SR
 2Shock,3Post,-0.51,-0.38,-0.13,0.05,-2.48,0.03,-0.14,1333,0.13,0.04,False,0.13,non responder,hamilton_23,SIR
-2Shock,3Post,0.24,-0.13,0.37,0.06,6.14,0.0,0.35,1334,-0.37,0.0,True,-0.37,inhibited,hamilton_23,SR
+2Shock,3Post,0.24,-0.13,0.37,0.06,6.14,0.0,0.35,1334,-0.37,0.0,False,-0.37,non responder,hamilton_23,SR
 2Shock,3Post,0.44,-0.33,0.77,0.05,14.7,0.0,0.85,1336,-0.77,0.0,True,-0.77,inhibited,hamilton_23,SR
 2Shock,3Post,-1.17,0.59,-1.76,0.05,-36.16,0.0,-2.09,1338,1.76,0.0,True,1.76,activated,hamilton_23,FF
 2Shock,3Post,-0.14,0.3,-0.44,0.07,-6.43,0.0,-0.37,1339,0.44,0.0,True,0.44,activated,hamilton_23,SIR
@@ -168,20 +168,20 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-0.65,-0.69,0.03,0.04,0.89,0.64,0.05,1353,-0.03,0.67,False,-0.03,non responder,hamilton_07,SIR
 2Shock,3Post,6.17,5.59,0.58,0.1,5.93,0.0,0.34,1354,-0.58,0.0,True,-0.58,inhibited,hamilton_07,SIR
 2Shock,3Post,-0.08,0.7,-0.78,0.06,-13.94,0.0,-0.8,1356,0.78,0.0,True,0.78,activated,hamilton_07,SR
-2Shock,3Post,0.06,-0.24,0.3,0.04,7.84,0.0,0.45,1357,-0.3,0.0,True,-0.3,inhibited,hamilton_07,SR
+2Shock,3Post,0.06,-0.24,0.3,0.04,7.84,0.0,0.45,1357,-0.3,0.0,False,-0.3,non responder,hamilton_07,SR
 2Shock,3Post,-0.59,5.4,-5.99,0.16,-36.57,0.0,-2.11,1361,5.99,0.0,True,5.99,activated,hamilton_07,SR
 2Shock,3Post,0.73,-0.28,1.01,0.05,19.95,0.0,1.15,1363,-1.01,0.0,True,-1.01,inhibited,hamilton_07,SR
 2Shock,3Post,3.65,0.3,3.35,0.12,28.94,0.0,1.67,1364,-3.35,0.0,True,-3.35,inhibited,hamilton_07,SR
 2Shock,3Post,2.16,-0.65,2.8,0.07,42.7,0.0,2.46,1366,-2.8,0.0,True,-2.8,inhibited,hamilton_07,SR
 2Shock,3Post,-0.26,-0.3,0.04,0.04,0.91,0.64,0.05,1367,-0.04,0.66,False,-0.04,non responder,hamilton_07,SR
 2Shock,3Post,10.05,2.57,7.48,0.19,40.02,0.0,2.31,1368,-7.48,0.0,True,-7.48,inhibited,hamilton_07,SIR
-2Shock,3Post,-1.07,-1.4,0.33,0.06,5.36,0.0,0.31,1369,-0.33,0.0,True,-0.33,inhibited,hamilton_07,FF
+2Shock,3Post,-1.07,-1.4,0.33,0.06,5.36,0.0,0.31,1369,-0.33,0.0,False,-0.33,non responder,hamilton_07,FF
 2Shock,3Post,0.77,-0.29,1.06,0.07,14.56,0.0,0.84,1370,-1.06,0.0,True,-1.06,inhibited,hamilton_07,SIR
 2Shock,3Post,-1.01,-1.05,0.04,0.03,1.1,0.52,0.06,1371,-0.04,0.54,False,-0.04,non responder,hamilton_07,SR
 2Shock,3Post,0.21,-1.07,1.28,0.05,24.41,0.0,1.41,1373,-1.28,0.0,True,-1.28,inhibited,hamilton_07,SR
-2Shock,3Post,0.59,0.94,-0.35,0.08,-4.63,0.0,-0.27,1378,0.35,0.0,True,0.35,activated,hamilton_07,SR
+2Shock,3Post,0.59,0.94,-0.35,0.08,-4.63,0.0,-0.27,1378,0.35,0.0,False,0.35,non responder,hamilton_07,SR
 2Shock,3Post,3.42,0.42,3.0,0.06,48.1,0.0,2.78,1379,-3.0,0.0,True,-3.0,inhibited,hamilton_07,SR
-2Shock,3Post,1.2,1.59,-0.4,0.07,-5.96,0.0,-0.34,1380,0.4,0.0,True,0.4,activated,hamilton_07,SIR
+2Shock,3Post,1.2,1.59,-0.4,0.07,-5.96,0.0,-0.34,1380,0.4,0.0,False,0.4,non responder,hamilton_07,SIR
 2Shock,3Post,2.52,0.18,2.34,0.09,27.0,0.0,1.56,1383,-2.34,0.0,True,-2.34,inhibited,hamilton_07,FF
 2Shock,3Post,-0.39,-2.23,1.83,0.09,20.69,0.0,1.19,1384,-1.83,0.0,True,-1.83,inhibited,hamilton_07,FF
 2Shock,3Post,3.92,1.39,2.53,0.09,28.3,0.0,1.63,1385,-2.53,0.0,True,-2.53,inhibited,hamilton_07,SR
@@ -190,7 +190,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-0.42,-1.15,0.73,0.04,16.63,0.0,0.96,1389,-0.73,0.0,True,-0.73,inhibited,hamilton_07,SR
 2Shock,3Post,-1.11,-1.12,0.01,0.03,0.24,0.97,0.01,1391,-0.01,0.99,False,-0.01,non responder,hamilton_07,SR
 2Shock,3Post,-1.97,-1.98,0.01,0.03,0.25,0.97,0.01,1392,-0.01,0.99,False,-0.01,non responder,hamilton_07,SIR
-2Shock,3Post,0.72,0.51,0.21,0.07,3.11,0.01,0.18,1394,-0.21,0.01,True,-0.21,inhibited,hamilton_07,SR
+2Shock,3Post,0.72,0.51,0.21,0.07,3.11,0.01,0.18,1394,-0.21,0.01,False,-0.21,non responder,hamilton_07,SR
 2Shock,3Post,-0.46,-0.5,0.04,0.04,1.14,0.49,0.07,1395,-0.04,0.52,False,-0.04,non responder,hamilton_07,SR
 2Shock,3Post,-1.18,-1.8,0.62,0.05,12.9,0.0,0.74,1398,-0.62,0.0,True,-0.62,inhibited,hamilton_07,FF
 2Shock,3Post,-0.65,-0.76,0.1,0.04,2.3,0.06,0.13,1401,-0.1,0.06,False,-0.1,non responder,hamilton_07,SIR
@@ -208,9 +208,9 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,1.63,-0.35,1.98,0.07,28.07,0.0,1.62,1435,-1.98,0.0,True,-1.98,inhibited,hamilton_08,SR
 2Shock,3Post,-0.94,0.84,-1.78,0.05,-33.75,0.0,-1.95,1437,1.78,0.0,True,1.78,activated,hamilton_08,SR
 2Shock,3Post,0.96,-0.08,1.03,0.06,16.29,0.0,0.94,1438,-1.03,0.0,True,-1.03,inhibited,hamilton_08,SIR
-2Shock,3Post,0.99,0.79,0.2,0.05,4.18,0.0,0.24,1439,-0.2,0.0,True,-0.2,inhibited,hamilton_08,SIR
+2Shock,3Post,0.99,0.79,0.2,0.05,4.18,0.0,0.24,1439,-0.2,0.0,False,-0.2,non responder,hamilton_08,SIR
 2Shock,3Post,-0.61,-0.65,0.04,0.03,1.25,0.42,0.07,1440,-0.04,0.45,False,-0.04,non responder,hamilton_08,SIR
-2Shock,3Post,0.57,0.78,-0.21,0.07,-2.97,0.01,-0.17,1441,0.21,0.01,True,0.21,activated,hamilton_08,SIR
+2Shock,3Post,0.57,0.78,-0.21,0.07,-2.97,0.01,-0.17,1441,0.21,0.01,False,0.21,non responder,hamilton_08,SIR
 2Shock,3Post,3.1,-1.15,4.25,0.06,68.06,0.0,3.93,1442,-4.25,0.0,True,-4.25,inhibited,hamilton_08,SR
 2Shock,3Post,0.88,0.25,0.63,0.07,9.09,0.0,0.52,1443,-0.63,0.0,True,-0.63,inhibited,hamilton_08,SR
 2Shock,3Post,5.33,0.63,4.7,0.08,60.9,0.0,3.52,1445,-4.7,0.0,True,-4.7,inhibited,hamilton_08,SR
@@ -218,7 +218,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-2.52,-0.34,-2.18,0.06,-39.32,0.0,-2.27,1447,2.18,0.0,True,2.18,activated,hamilton_08,SR
 2Shock,3Post,1.06,0.04,1.02,0.07,13.76,0.0,0.79,1448,-1.02,0.0,True,-1.02,inhibited,hamilton_08,SIR
 2Shock,3Post,6.8,1.99,4.82,0.1,47.46,0.0,2.74,1452,-4.82,0.0,True,-4.82,inhibited,hamilton_08,SIR
-2Shock,3Post,1.75,1.52,0.23,0.1,2.43,0.04,0.14,1455,-0.23,0.05,True,-0.23,inhibited,hamilton_08,SIR
+2Shock,3Post,1.75,1.52,0.23,0.1,2.43,0.04,0.14,1455,-0.23,0.05,False,-0.23,non responder,hamilton_08,SIR
 2Shock,3Post,4.45,-0.34,4.78,0.11,43.75,0.0,2.53,1458,-4.78,0.0,True,-4.78,inhibited,hamilton_08,SIR
 2Shock,3Post,2.29,-0.82,3.11,0.04,71.01,0.0,4.1,1459,-3.11,0.0,True,-3.11,inhibited,hamilton_08,SIR
 2Shock,3Post,2.44,-0.57,3.02,0.07,41.44,0.0,2.39,1460,-3.02,0.0,True,-3.02,inhibited,hamilton_08,SIR
@@ -253,7 +253,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,1.45,-0.17,1.62,0.07,21.82,0.0,1.26,1501,-1.62,0.0,True,-1.62,inhibited,hamilton_19,SR
 2Shock,3Post,-1.05,0.11,-1.15,0.05,-24.21,0.0,-1.4,1502,1.15,0.0,True,1.15,activated,hamilton_19,SR
 2Shock,3Post,-1.84,-0.11,-1.73,0.06,-29.17,0.0,-1.68,1504,1.73,0.0,True,1.73,activated,hamilton_19,FF
-2Shock,3Post,0.68,0.32,0.36,0.06,5.72,0.0,0.33,1505,-0.36,0.0,True,-0.36,inhibited,hamilton_19,SR
+2Shock,3Post,0.68,0.32,0.36,0.06,5.72,0.0,0.33,1505,-0.36,0.0,False,-0.36,non responder,hamilton_19,SR
 2Shock,3Post,1.01,-0.58,1.59,0.05,32.26,0.0,1.86,1507,-1.59,0.0,True,-1.59,inhibited,hamilton_19,SR
 2Shock,3Post,4.09,-0.27,4.36,0.19,23.51,0.0,1.36,1509,-4.36,0.0,True,-4.36,inhibited,hamilton_19,SR
 2Shock,3Post,-1.37,0.08,-1.46,0.07,-21.79,0.0,-1.26,1510,1.46,0.0,True,1.46,activated,hamilton_19,FF
@@ -287,11 +287,11 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,0.8,-0.16,0.95,0.09,11.02,0.0,0.64,1548,-0.95,0.0,True,-0.95,inhibited,hamilton_19,SIR
 2Shock,3Post,-2.81,0.71,-3.52,0.05,-67.67,0.0,-3.91,1550,3.52,0.0,True,3.52,activated,hamilton_19,FF
 2Shock,3Post,-0.29,-0.47,0.19,0.05,3.72,0.0,0.21,1551,-0.19,0.0,False,-0.19,non responder,hamilton_19,FF
-2Shock,3Post,-0.17,-0.5,0.33,0.06,5.18,0.0,0.3,1554,-0.33,0.0,True,-0.33,inhibited,hamilton_20,SR
+2Shock,3Post,-0.17,-0.5,0.33,0.06,5.18,0.0,0.3,1554,-0.33,0.0,False,-0.33,non responder,hamilton_20,SR
 2Shock,3Post,-1.9,0.04,-1.94,0.05,-37.53,0.0,-2.17,1556,1.94,0.0,True,1.94,activated,hamilton_20,SR
 2Shock,3Post,-2.52,0.35,-2.86,0.06,-47.32,0.0,-2.73,1557,2.86,0.0,True,2.86,activated,hamilton_20,SR
 2Shock,3Post,0.03,0.57,-0.53,0.07,-7.99,0.0,-0.46,1558,0.53,0.0,True,0.53,activated,hamilton_20,SIR
-2Shock,3Post,0.5,0.11,0.39,0.08,5.11,0.0,0.3,1559,-0.39,0.0,True,-0.39,inhibited,hamilton_20,SR
+2Shock,3Post,0.5,0.11,0.39,0.08,5.11,0.0,0.3,1559,-0.39,0.0,False,-0.39,non responder,hamilton_20,SR
 2Shock,3Post,-1.39,1.24,-2.63,0.04,-59.39,0.0,-3.43,1560,2.63,0.0,True,2.63,activated,hamilton_20,SR
 2Shock,3Post,0.93,0.27,0.65,0.09,7.27,0.0,0.42,1562,-0.65,0.0,True,-0.65,inhibited,hamilton_20,SR
 2Shock,3Post,-0.5,-0.34,-0.16,0.05,-3.02,0.01,-0.17,1563,0.16,0.01,False,0.16,non responder,hamilton_20,SIR
@@ -307,7 +307,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,0.28,-0.23,0.52,0.06,8.04,0.0,0.46,1575,-0.52,0.0,True,-0.52,inhibited,hamilton_20,SR
 2Shock,3Post,0.49,-0.29,0.78,0.06,13.38,0.0,0.77,1577,-0.78,0.0,True,-0.78,inhibited,hamilton_20,SR
 2Shock,3Post,2.15,0.03,2.12,0.08,27.68,0.0,1.6,1578,-2.12,0.0,True,-2.12,inhibited,hamilton_20,SIR
-2Shock,3Post,-0.16,-0.39,0.23,0.05,4.97,0.0,0.29,1579,-0.23,0.0,True,-0.23,inhibited,hamilton_20,SIR
+2Shock,3Post,-0.16,-0.39,0.23,0.05,4.97,0.0,0.29,1579,-0.23,0.0,False,-0.23,non responder,hamilton_20,SIR
 2Shock,3Post,3.72,0.1,3.62,0.12,31.11,0.0,1.8,1580,-3.62,0.0,True,-3.62,inhibited,hamilton_20,SIR
 2Shock,3Post,5.38,0.89,4.49,0.07,66.75,0.0,3.85,1581,-4.49,0.0,True,-4.49,inhibited,hamilton_20,SR
 2Shock,3Post,-0.33,-0.82,0.48,0.06,7.49,0.0,0.43,1582,-0.48,0.0,True,-0.48,inhibited,hamilton_20,SR
@@ -340,30 +340,30 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,0.09,-0.88,0.96,0.05,18.46,0.0,1.07,2016,-0.96,0.0,True,-0.96,inhibited,hamilton_25,FF
 2Shock,3Post,-0.22,-1.19,0.97,0.06,16.8,0.0,0.97,2017,-0.97,0.0,True,-0.97,inhibited,hamilton_25,SIR
 2Shock,3Post,0.13,-0.85,0.97,0.04,21.93,0.0,1.27,2018,-0.97,0.0,True,-0.97,inhibited,hamilton_25,SIR
-2Shock,3Post,-0.92,-0.6,-0.32,0.05,-6.21,0.0,-0.36,2020,0.32,0.0,True,0.32,activated,hamilton_25,FF
+2Shock,3Post,-0.92,-0.6,-0.32,0.05,-6.21,0.0,-0.36,2020,0.32,0.0,False,0.32,non responder,hamilton_25,FF
 2Shock,3Post,-0.27,-0.27,0.0,0.05,0.06,1.0,0.0,2022,-0.0,1.0,False,-0.0,non responder,hamilton_25,FF
-2Shock,3Post,-0.15,-0.35,0.2,0.06,3.36,0.0,0.19,2023,-0.2,0.0,True,-0.2,inhibited,hamilton_25,SIR
-2Shock,3Post,-0.01,-0.32,0.31,0.05,6.05,0.0,0.35,2026,-0.31,0.0,True,-0.31,inhibited,hamilton_25,SIR
+2Shock,3Post,-0.15,-0.35,0.2,0.06,3.36,0.0,0.19,2023,-0.2,0.0,False,-0.2,non responder,hamilton_25,SIR
+2Shock,3Post,-0.01,-0.32,0.31,0.05,6.05,0.0,0.35,2026,-0.31,0.0,False,-0.31,non responder,hamilton_25,SIR
 2Shock,3Post,-1.14,-2.19,1.05,0.05,20.51,0.0,1.18,2031,-1.05,0.0,True,-1.05,inhibited,hamilton_25,SIR
 2Shock,3Post,-0.44,-0.36,-0.08,0.05,-1.49,0.3,-0.09,2034,0.08,0.32,False,0.08,non responder,hamilton_25,SIR
-2Shock,3Post,-0.61,-0.25,-0.36,0.05,-6.9,0.0,-0.4,2035,0.36,0.0,True,0.36,activated,hamilton_25,SIR
-2Shock,3Post,-0.48,-0.15,-0.33,0.06,-5.49,0.0,-0.32,2036,0.33,0.0,True,0.33,activated,hamilton_25,SIR
+2Shock,3Post,-0.61,-0.25,-0.36,0.05,-6.9,0.0,-0.4,2035,0.36,0.0,False,0.36,non responder,hamilton_25,SIR
+2Shock,3Post,-0.48,-0.15,-0.33,0.06,-5.49,0.0,-0.32,2036,0.33,0.0,False,0.33,non responder,hamilton_25,SIR
 2Shock,3Post,-0.01,-0.7,0.69,0.06,10.82,0.0,0.62,2037,-0.69,0.0,True,-0.69,inhibited,hamilton_25,SR
 2Shock,3Post,0.19,-0.99,1.18,0.06,19.29,0.0,1.11,2038,-1.18,0.0,True,-1.18,inhibited,hamilton_25,SR
 2Shock,3Post,0.92,-0.36,1.29,0.05,26.39,0.0,1.52,2041,-1.29,0.0,True,-1.29,inhibited,hamilton_26,SIR
 2Shock,3Post,-1.14,-1.18,0.04,0.04,1.15,0.48,0.07,2047,-0.04,0.51,False,-0.04,non responder,hamilton_26,SR
 2Shock,3Post,0.06,0.97,-0.91,0.07,-13.98,0.0,-0.81,2048,0.91,0.0,True,0.91,activated,hamilton_26,SR
 2Shock,3Post,1.15,0.04,1.11,0.07,17.01,0.0,0.98,2049,-1.11,0.0,True,-1.11,inhibited,hamilton_26,FF
-2Shock,3Post,0.66,0.33,0.34,0.05,7.21,0.0,0.42,2050,-0.34,0.0,True,-0.34,inhibited,hamilton_26,SR
+2Shock,3Post,0.66,0.33,0.34,0.05,7.21,0.0,0.42,2050,-0.34,0.0,False,-0.34,non responder,hamilton_26,SR
 2Shock,3Post,0.27,0.1,0.16,0.06,2.8,0.01,0.16,2052,-0.16,0.02,False,-0.16,non responder,hamilton_26,SR
 2Shock,3Post,-0.22,-0.1,-0.12,0.05,-2.25,0.06,-0.13,2055,0.12,0.07,False,0.12,non responder,hamilton_26,SR
-2Shock,3Post,1.34,1.57,-0.23,0.07,-3.24,0.0,-0.19,2057,0.23,0.0,True,0.23,activated,hamilton_26,SR
+2Shock,3Post,1.34,1.57,-0.23,0.07,-3.24,0.0,-0.19,2057,0.23,0.0,False,0.23,non responder,hamilton_26,SR
 2Shock,3Post,0.95,0.34,0.61,0.07,8.43,0.0,0.49,2058,-0.61,0.0,True,-0.61,inhibited,hamilton_26,SR
 2Shock,3Post,0.6,0.02,0.58,0.07,8.81,0.0,0.51,2059,-0.58,0.0,True,-0.58,inhibited,hamilton_26,SR
-2Shock,3Post,0.48,0.24,0.24,0.1,2.46,0.04,0.14,2060,-0.24,0.04,True,-0.24,inhibited,hamilton_26,SR
+2Shock,3Post,0.48,0.24,0.24,0.1,2.46,0.04,0.14,2060,-0.24,0.04,False,-0.24,non responder,hamilton_26,SR
 2Shock,3Post,-0.2,-0.06,-0.14,0.07,-2.13,0.08,-0.12,2061,0.14,0.09,False,0.14,non responder,hamilton_26,SR
-2Shock,3Post,-0.39,-0.6,0.2,0.06,3.48,0.0,0.2,2062,-0.2,0.0,True,-0.2,inhibited,hamilton_26,SIR
-2Shock,3Post,0.33,-0.03,0.37,0.05,6.73,0.0,0.39,2065,-0.37,0.0,True,-0.37,inhibited,hamilton_26,SR
+2Shock,3Post,-0.39,-0.6,0.2,0.06,3.48,0.0,0.2,2062,-0.2,0.0,False,-0.2,non responder,hamilton_26,SIR
+2Shock,3Post,0.33,-0.03,0.37,0.05,6.73,0.0,0.39,2065,-0.37,0.0,False,-0.37,non responder,hamilton_26,SR
 2Shock,3Post,0.32,-0.66,0.98,0.07,14.39,0.0,0.83,2066,-0.98,0.0,True,-0.98,inhibited,hamilton_26,SR
 2Shock,3Post,0.72,-0.12,0.85,0.06,14.73,0.0,0.85,2067,-0.85,0.0,True,-0.85,inhibited,hamilton_26,SIR
 2Shock,3Post,-0.36,-0.46,0.1,0.04,2.55,0.03,0.15,2069,-0.1,0.03,False,-0.1,non responder,hamilton_26,SIR
@@ -371,7 +371,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,1.34,0.59,0.76,0.08,9.47,0.0,0.55,2073,-0.76,0.0,True,-0.76,inhibited,hamilton_26,SIR
 2Shock,3Post,0.52,-0.27,0.79,0.07,11.44,0.0,0.66,2074,-0.79,0.0,True,-0.79,inhibited,hamilton_26,SR
 2Shock,3Post,0.74,0.32,0.42,0.05,7.88,0.0,0.45,2075,-0.42,0.0,True,-0.42,inhibited,hamilton_26,SR
-2Shock,3Post,0.89,0.56,0.34,0.06,5.78,0.0,0.33,2076,-0.34,0.0,True,-0.34,inhibited,hamilton_28,SR
+2Shock,3Post,0.89,0.56,0.34,0.06,5.78,0.0,0.33,2076,-0.34,0.0,False,-0.34,non responder,hamilton_28,SR
 2Shock,3Post,-2.05,-2.75,0.7,0.05,13.99,0.0,0.81,2077,-0.7,0.0,True,-0.7,inhibited,hamilton_28,FF
 2Shock,3Post,1.25,1.41,-0.16,0.08,-1.97,0.12,-0.11,2078,0.16,0.13,False,0.16,non responder,hamilton_28,SR
 2Shock,3Post,0.81,1.23,-0.42,0.08,-5.44,0.0,-0.31,2079,0.42,0.0,True,0.42,activated,hamilton_28,SR
@@ -380,7 +380,7 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-0.47,0.13,-0.6,0.05,-12.45,0.0,-0.72,2083,0.6,0.0,True,0.6,activated,hamilton_28,SIR
 2Shock,3Post,0.89,-0.78,1.68,0.06,27.99,0.0,1.62,2084,-1.68,0.0,True,-1.68,inhibited,hamilton_28,SIR
 2Shock,3Post,-0.14,-0.55,0.41,0.05,8.82,0.0,0.51,2087,-0.41,0.0,True,-0.41,inhibited,hamilton_28,SIR
-2Shock,3Post,0.05,-0.17,0.22,0.05,4.03,0.0,0.23,2091,-0.22,0.0,True,-0.22,inhibited,hamilton_28,SIR
+2Shock,3Post,0.05,-0.17,0.22,0.05,4.03,0.0,0.23,2091,-0.22,0.0,False,-0.22,non responder,hamilton_28,SIR
 2Shock,3Post,1.63,0.05,1.59,0.08,19.45,0.0,1.12,2099,-1.59,0.0,True,-1.59,inhibited,hamilton_28,SIR
 2Shock,3Post,2.63,0.25,2.38,0.06,38.51,0.0,2.22,2101,-2.38,0.0,True,-2.38,inhibited,hamilton_28,SIR
 2Shock,3Post,0.15,0.24,-0.09,0.06,-1.45,0.32,-0.08,2102,0.09,0.34,False,0.09,non responder,hamilton_28,SR
@@ -399,47 +399,47 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,-1.09,-0.69,-0.4,0.06,-6.27,0.0,-0.36,2135,0.4,0.0,True,0.4,activated,hamilton_29,SR
 2Shock,3Post,-0.46,-0.58,0.12,0.04,2.9,0.01,0.17,2136,-0.12,0.01,False,-0.12,non responder,hamilton_29,SIR
 2Shock,3Post,0.58,-0.56,1.14,0.05,21.42,0.0,1.24,2137,-1.14,0.0,True,-1.14,inhibited,hamilton_29,SR
-2Shock,3Post,-0.35,-0.64,0.3,0.05,5.76,0.0,0.33,2138,-0.3,0.0,True,-0.3,inhibited,hamilton_29,SIR
-2Shock,3Post,-0.43,-0.67,0.23,0.04,5.52,0.0,0.32,2139,-0.23,0.0,True,-0.23,inhibited,hamilton_29,SIR
+2Shock,3Post,-0.35,-0.64,0.3,0.05,5.76,0.0,0.33,2138,-0.3,0.0,False,-0.3,non responder,hamilton_29,SIR
+2Shock,3Post,-0.43,-0.67,0.23,0.04,5.52,0.0,0.32,2139,-0.23,0.0,False,-0.23,non responder,hamilton_29,SIR
 2Shock,3Post,0.37,-0.75,1.13,0.06,18.78,0.0,1.08,2144,-1.13,0.0,True,-1.13,inhibited,hamilton_29,SIR
 2Shock,3Post,-1.33,-0.87,-0.45,0.05,-10.06,0.0,-0.58,2147,0.45,0.0,True,0.45,activated,hamilton_29,SR
 2Shock,3Post,-0.78,-0.68,-0.1,0.06,-1.63,0.23,-0.09,2152,0.1,0.25,False,0.1,non responder,hamilton_29,SIR
 2Shock,3Post,-0.71,-1.42,0.71,0.05,14.11,0.0,0.81,2155,-0.71,0.0,True,-0.71,inhibited,hamilton_29,SIR
 2Shock,3Post,-0.04,-0.99,0.96,0.07,14.34,0.0,0.83,2162,-0.96,0.0,True,-0.96,inhibited,hamilton_29,SR
-2Shock,3Post,-0.59,-0.82,0.24,0.04,5.71,0.0,0.33,2165,-0.24,0.0,True,-0.24,inhibited,hamilton_29,SIR
+2Shock,3Post,-0.59,-0.82,0.24,0.04,5.71,0.0,0.33,2165,-0.24,0.0,False,-0.24,non responder,hamilton_29,SIR
 2Shock,3Post,0.32,0.45,-0.13,0.08,-1.72,0.2,-0.1,2166,0.13,0.22,False,0.13,non responder,hamilton_29,SIR
 2Shock,3Post,-0.42,-0.57,0.14,0.05,3.15,0.0,0.18,2173,-0.14,0.01,False,-0.14,non responder,hamilton_29,SIR
-2Shock,3Post,-0.45,-0.24,-0.21,0.05,-4.26,0.0,-0.25,2174,0.21,0.0,True,0.21,activated,hamilton_29,SIR
+2Shock,3Post,-0.45,-0.24,-0.21,0.05,-4.26,0.0,-0.25,2174,0.21,0.0,False,0.21,non responder,hamilton_29,SIR
 2Shock,3Post,-1.28,-1.7,0.42,0.06,6.52,0.0,0.38,2176,-0.42,0.0,True,-0.42,inhibited,hamilton_29,SR
 2Shock,3Post,-0.58,-0.99,0.41,0.06,7.04,0.0,0.41,2177,-0.41,0.0,True,-0.41,inhibited,hamilton_29,SIR
 2Shock,3Post,0.97,-0.4,1.38,0.05,26.67,0.0,1.54,2178,-1.38,0.0,True,-1.38,inhibited,hamilton_29,SIR
-2Shock,3Post,-0.49,-0.69,0.21,0.04,4.8,0.0,0.28,2181,-0.21,0.0,True,-0.21,inhibited,hamilton_29,SIR
+2Shock,3Post,-0.49,-0.69,0.21,0.04,4.8,0.0,0.28,2181,-0.21,0.0,False,-0.21,non responder,hamilton_29,SIR
 2Shock,3Post,2.06,1.43,0.62,0.07,9.33,0.0,0.54,2183,-0.62,0.0,True,-0.62,inhibited,hamilton_29,FF
 2Shock,3Post,-1.28,-1.38,0.1,0.03,2.87,0.01,0.17,2184,-0.1,0.01,False,-0.1,non responder,hamilton_29,SIR
 2Shock,3Post,-0.06,-1.04,0.98,0.06,17.29,0.0,1.0,2185,-0.98,0.0,True,-0.98,inhibited,hamilton_29,SIR
 2Shock,3Post,0.74,0.0,0.74,0.06,12.54,0.0,0.72,2186,-0.74,0.0,True,-0.74,inhibited,hamilton_29,SR
 2Shock,3Post,0.18,-0.22,0.4,0.06,7.32,0.0,0.42,2187,-0.4,0.0,True,-0.4,inhibited,hamilton_29,SIR
 2Shock,3Post,0.32,-0.23,0.54,0.06,9.63,0.0,0.56,2188,-0.54,0.0,True,-0.54,inhibited,hamilton_29,SIR
-2Shock,3Post,-0.7,-0.97,0.27,0.04,6.33,0.0,0.37,2189,-0.27,0.0,True,-0.27,inhibited,hamilton_29,SIR
+2Shock,3Post,-0.7,-0.97,0.27,0.04,6.33,0.0,0.37,2189,-0.27,0.0,False,-0.27,non responder,hamilton_29,SIR
 2Shock,3Post,0.54,-0.06,0.6,0.05,11.1,0.0,0.64,2191,-0.6,0.0,True,-0.6,inhibited,hamilton_29,SR
-2Shock,3Post,0.03,0.35,-0.31,0.06,-5.59,0.0,-0.32,2192,0.31,0.0,True,0.31,activated,hamilton_29,SIR
-2Shock,3Post,-0.74,-1.0,0.26,0.05,4.86,0.0,0.28,2193,-0.26,0.0,True,-0.26,inhibited,hamilton_30,SIR
+2Shock,3Post,0.03,0.35,-0.31,0.06,-5.59,0.0,-0.32,2192,0.31,0.0,False,0.31,non responder,hamilton_29,SIR
+2Shock,3Post,-0.74,-1.0,0.26,0.05,4.86,0.0,0.28,2193,-0.26,0.0,False,-0.26,non responder,hamilton_30,SIR
 2Shock,3Post,-0.29,-0.13,-0.16,0.05,-3.11,0.01,-0.18,2198,0.16,0.01,False,0.16,non responder,hamilton_30,SIR
-2Shock,3Post,0.36,0.02,0.34,0.06,5.43,0.0,0.31,2200,-0.34,0.0,True,-0.34,inhibited,hamilton_30,SIR
+2Shock,3Post,0.36,0.02,0.34,0.06,5.43,0.0,0.31,2200,-0.34,0.0,False,-0.34,non responder,hamilton_30,SIR
 2Shock,3Post,1.03,-0.01,1.04,0.06,18.25,0.0,1.05,2202,-1.04,0.0,True,-1.04,inhibited,hamilton_30,SR
 2Shock,3Post,-0.61,-0.1,-0.51,0.06,-8.95,0.0,-0.52,2208,0.51,0.0,True,0.51,activated,hamilton_30,SIR
 2Shock,3Post,-0.19,-0.15,-0.04,0.05,-0.78,0.71,-0.05,2211,0.04,0.74,False,0.04,non responder,hamilton_30,SIR
 2Shock,3Post,-1.3,-0.49,-0.81,0.05,-15.74,0.0,-0.91,2212,0.81,0.0,True,0.81,activated,hamilton_30,SR
 2Shock,3Post,0.28,0.11,0.18,0.06,2.86,0.01,0.16,2213,-0.18,0.01,False,-0.18,non responder,hamilton_30,SR
 2Shock,3Post,-0.02,0.44,-0.46,0.06,-7.87,0.0,-0.45,2214,0.46,0.0,True,0.46,activated,hamilton_30,SR
-2Shock,3Post,-0.66,-0.34,-0.32,0.05,-6.06,0.0,-0.35,2217,0.32,0.0,True,0.32,activated,hamilton_30,SIR
-2Shock,3Post,0.54,0.16,0.39,0.06,6.08,0.0,0.35,2220,-0.39,0.0,True,-0.39,inhibited,hamilton_30,SR
+2Shock,3Post,-0.66,-0.34,-0.32,0.05,-6.06,0.0,-0.35,2217,0.32,0.0,False,0.32,non responder,hamilton_30,SIR
+2Shock,3Post,0.54,0.16,0.39,0.06,6.08,0.0,0.35,2220,-0.39,0.0,False,-0.39,non responder,hamilton_30,SR
 2Shock,3Post,0.65,0.65,0.01,0.06,0.08,1.0,0.0,2222,-0.01,1.0,False,-0.01,non responder,hamilton_30,SR
-2Shock,3Post,-0.04,0.34,-0.38,0.06,-6.2,0.0,-0.36,2225,0.38,0.0,True,0.38,activated,hamilton_30,SR
+2Shock,3Post,-0.04,0.34,-0.38,0.06,-6.2,0.0,-0.36,2225,0.38,0.0,False,0.38,non responder,hamilton_30,SR
 2Shock,3Post,0.28,0.3,-0.02,0.06,-0.25,0.97,-0.01,2233,0.02,0.99,False,0.02,non responder,hamilton_30,SIR
-2Shock,3Post,-0.11,0.23,-0.34,0.06,-5.97,0.0,-0.34,2235,0.34,0.0,True,0.34,activated,hamilton_30,SIR
+2Shock,3Post,-0.11,0.23,-0.34,0.06,-5.97,0.0,-0.34,2235,0.34,0.0,False,0.34,non responder,hamilton_30,SIR
 2Shock,3Post,0.59,-0.08,0.66,0.06,10.22,0.0,0.59,2236,-0.66,0.0,True,-0.66,inhibited,hamilton_30,SIR
-2Shock,3Post,-0.07,-0.3,0.23,0.05,4.63,0.0,0.27,2241,-0.23,0.0,True,-0.23,inhibited,hamilton_30,SIR
+2Shock,3Post,-0.07,-0.3,0.23,0.05,4.63,0.0,0.27,2241,-0.23,0.0,False,-0.23,non responder,hamilton_30,SIR
 2Shock,3Post,-0.57,0.03,-0.6,0.06,-9.51,0.0,-0.55,2242,0.6,0.0,True,0.6,activated,hamilton_30,SIR
 2Shock,3Post,-0.14,-0.19,0.05,0.04,1.39,0.34,0.08,2243,-0.05,0.37,False,-0.05,non responder,hamilton_30,SR
 2Shock,3Post,-0.01,-0.03,0.02,0.06,0.35,0.93,0.02,2244,-0.02,0.96,False,-0.02,non responder,hamilton_30,SIR
@@ -447,19 +447,19 @@ A,B,mean(A),mean(B),diff,se,T,p-tukey,hedges,neuron_id,diff_inv,p_adj,sig,div_in
 2Shock,3Post,2.74,0.38,2.36,0.08,31.04,0.0,1.79,2247,-2.36,0.0,True,-2.36,inhibited,hamilton_30,SIR
 2Shock,3Post,-0.59,-0.0,-0.59,0.06,-10.28,0.0,-0.59,2248,0.59,0.0,True,0.59,activated,hamilton_30,SIR
 2Shock,3Post,0.03,0.56,-0.52,0.06,-8.36,0.0,-0.48,2249,0.52,0.0,True,0.52,activated,hamilton_30,SR
-2Shock,3Post,-0.51,-0.27,-0.24,0.05,-4.34,0.0,-0.25,2250,0.24,0.0,True,0.24,activated,hamilton_30,SIR
-2Shock,3Post,-0.82,-0.43,-0.39,0.05,-7.95,0.0,-0.46,2251,0.39,0.0,True,0.39,activated,hamilton_30,SIR
-2Shock,3Post,-0.63,-0.33,-0.3,0.06,-5.41,0.0,-0.31,2252,0.3,0.0,True,0.3,activated,hamilton_30,SR
+2Shock,3Post,-0.51,-0.27,-0.24,0.05,-4.34,0.0,-0.25,2250,0.24,0.0,False,0.24,non responder,hamilton_30,SIR
+2Shock,3Post,-0.82,-0.43,-0.39,0.05,-7.95,0.0,-0.46,2251,0.39,0.0,False,0.39,non responder,hamilton_30,SIR
+2Shock,3Post,-0.63,-0.33,-0.3,0.06,-5.41,0.0,-0.31,2252,0.3,0.0,False,0.3,non responder,hamilton_30,SR
 2Shock,3Post,-0.94,-0.08,-0.86,0.06,-14.44,0.0,-0.83,2260,0.86,0.0,True,0.86,activated,hamilton_30,FF
-2Shock,3Post,0.22,-0.02,0.24,0.06,3.92,0.0,0.23,2266,-0.24,0.0,True,-0.24,inhibited,hamilton_30,SIR
+2Shock,3Post,0.22,-0.02,0.24,0.06,3.92,0.0,0.23,2266,-0.24,0.0,False,-0.24,non responder,hamilton_30,SIR
 2Shock,3Post,1.3,-0.14,1.43,0.06,22.85,0.0,1.32,2270,-1.43,0.0,True,-1.43,inhibited,hamilton_30,SIR
 2Shock,3Post,-1.52,-0.6,-0.92,0.05,-19.35,0.0,-1.12,2271,0.92,0.0,True,0.92,activated,hamilton_30,SIR
 2Shock,3Post,0.99,0.21,0.78,0.07,11.64,0.0,0.67,2278,-0.78,0.0,True,-0.78,inhibited,hamilton_30,SIR
-2Shock,3Post,1.65,1.37,0.29,0.07,4.37,0.0,0.25,2279,-0.29,0.0,True,-0.29,inhibited,hamilton_30,SR
+2Shock,3Post,1.65,1.37,0.29,0.07,4.37,0.0,0.25,2279,-0.29,0.0,False,-0.29,non responder,hamilton_30,SR
 2Shock,3Post,0.47,-0.05,0.52,0.07,7.48,0.0,0.43,2280,-0.52,0.0,True,-0.52,inhibited,hamilton_30,SR
 2Shock,3Post,-0.01,-0.13,0.11,0.06,2.06,0.1,0.12,2281,-0.11,0.11,False,-0.11,non responder,hamilton_30,SIR
 2Shock,3Post,-2.6,-0.16,-2.44,0.06,-43.78,0.0,-2.53,2282,2.44,0.0,True,2.44,activated,hamilton_30,SR
 2Shock,3Post,0.69,0.28,0.4,0.07,6.17,0.0,0.36,2283,-0.4,0.0,True,-0.4,inhibited,hamilton_30,SR
-2Shock,3Post,-0.38,-0.11,-0.27,0.05,-5.02,0.0,-0.29,2284,0.27,0.0,True,0.27,activated,hamilton_30,SIR
+2Shock,3Post,-0.38,-0.11,-0.27,0.05,-5.02,0.0,-0.29,2284,0.27,0.0,False,0.27,non responder,hamilton_30,SIR
 2Shock,3Post,0.01,0.15,-0.14,0.05,-2.57,0.03,-0.15,2285,0.14,0.03,False,0.14,non responder,hamilton_30,SR
 2Shock,3Post,0.26,0.12,0.14,0.06,2.28,0.06,0.13,2287,-0.14,0.07,False,-0.14,non responder,hamilton_30,SR
