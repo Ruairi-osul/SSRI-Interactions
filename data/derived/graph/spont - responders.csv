@@ -1,0 +1,467 @@
+neuron_id,response_fs_slow,fs_fast_response,response_second_window
+1069,non responder,activated,non responder
+1070,activated,activated,activated
+1071,activated,activated,non responder
+1072,activated,inhibited,activated
+1074,non responder,activated,non responder
+1075,inhibited,non responder,non responder
+1076,inhibited,activated,activated
+1078,non responder,inhibited,activated
+1079,inhibited,non responder,non responder
+1082,activated,non responder,non responder
+1084,inhibited,activated,non responder
+1085,activated,inhibited,activated
+1087,inhibited,activated,non responder
+1088,inhibited,non responder,non responder
+1093,activated,non responder,non responder
+1094,activated,non responder,non responder
+1095,activated,activated,inhibited
+1098,activated,non responder,activated
+1100,activated,non responder,non responder
+1102,activated,non responder,non responder
+1105,non responder,activated,inhibited
+1106,activated,activated,activated
+1107,activated,inhibited,non responder
+1111,inhibited,inhibited,non responder
+1114,inhibited,activated,non responder
+1116,inhibited,activated,non responder
+1119,non responder,activated,non responder
+1121,inhibited,activated,non responder
+1123,activated,activated,non responder
+1124,non responder,non responder,non responder
+1127,activated,inhibited,activated
+1129,inhibited,non responder,non responder
+1131,non responder,activated,non responder
+1136,inhibited,non responder,non responder
+1137,activated,activated,non responder
+1138,activated,activated,non responder
+1139,inhibited,activated,non responder
+1140,activated,activated,non responder
+1143,inhibited,non responder,non responder
+1144,inhibited,activated,activated
+1145,inhibited,non responder,non responder
+1146,inhibited,non responder,non responder
+1148,activated,non responder,non responder
+1149,inhibited,non responder,non responder
+1150,inhibited,non responder,non responder
+1151,activated,inhibited,non responder
+1152,activated,inhibited,non responder
+1153,inhibited,non responder,non responder
+1154,non responder,non responder,non responder
+1157,activated,non responder,non responder
+1159,activated,non responder,non responder
+1166,non responder,activated,non responder
+1168,non responder,activated,non responder
+1173,inhibited,inhibited,non responder
+1175,inhibited,activated,non responder
+1176,non responder,non responder,non responder
+1177,non responder,,
+1178,non responder,inhibited,non responder
+1179,activated,inhibited,non responder
+1180,inhibited,non responder,non responder
+1181,inhibited,activated,non responder
+1182,activated,activated,non responder
+1183,non responder,non responder,non responder
+1184,non responder,inhibited,activated
+1186,activated,non responder,activated
+1187,non responder,non responder,activated
+1190,activated,inhibited,activated
+1191,non responder,inhibited,activated
+1192,inhibited,non responder,activated
+1193,inhibited,non responder,non responder
+1194,activated,inhibited,activated
+1195,inhibited,activated,non responder
+1196,inhibited,non responder,activated
+1197,non responder,non responder,activated
+1198,non responder,non responder,non responder
+1201,non responder,inhibited,activated
+1202,inhibited,non responder,activated
+1203,inhibited,non responder,non responder
+1204,activated,inhibited,activated
+1205,activated,inhibited,activated
+1208,inhibited,non responder,non responder
+1209,inhibited,non responder,activated
+1210,inhibited,non responder,activated
+1211,activated,non responder,activated
+1212,activated,inhibited,activated
+1214,activated,non responder,activated
+1215,activated,inhibited,activated
+1216,activated,non responder,activated
+1219,activated,inhibited,activated
+1220,activated,activated,non responder
+1221,non responder,inhibited,non responder
+1222,activated,activated,inhibited
+1224,inhibited,activated,inhibited
+1226,activated,non responder,non responder
+1227,activated,activated,non responder
+1229,inhibited,activated,non responder
+1230,activated,activated,non responder
+1231,activated,activated,non responder
+1232,inhibited,activated,non responder
+1233,activated,non responder,activated
+1234,non responder,activated,inhibited
+1235,activated,activated,non responder
+1236,activated,non responder,activated
+1237,activated,activated,activated
+1238,activated,non responder,activated
+1240,activated,non responder,activated
+1241,activated,activated,non responder
+1242,activated,non responder,non responder
+1244,activated,activated,non responder
+1245,activated,non responder,non responder
+1250,inhibited,non responder,activated
+1255,non responder,inhibited,activated
+1261,inhibited,inhibited,non responder
+1263,activated,non responder,activated
+1264,activated,inhibited,activated
+1265,activated,inhibited,activated
+1266,activated,non responder,activated
+1267,inhibited,inhibited,non responder
+1269,inhibited,inhibited,non responder
+1270,inhibited,non responder,activated
+1272,inhibited,inhibited,activated
+1273,inhibited,inhibited,inhibited
+1274,activated,activated,non responder
+1276,activated,inhibited,activated
+1277,inhibited,non responder,non responder
+1280,inhibited,inhibited,activated
+1281,inhibited,non responder,non responder
+1283,activated,non responder,activated
+1284,non responder,inhibited,non responder
+1285,inhibited,non responder,non responder
+1287,non responder,activated,activated
+1289,activated,activated,non responder
+1291,activated,non responder,activated
+1292,non responder,non responder,activated
+1294,inhibited,inhibited,activated
+1299,activated,activated,activated
+1301,activated,inhibited,activated
+1302,activated,non responder,activated
+1303,activated,inhibited,activated
+1305,non responder,activated,activated
+1312,inhibited,non responder,non responder
+1314,inhibited,activated,activated
+1315,activated,inhibited,non responder
+1316,inhibited,inhibited,non responder
+1317,activated,activated,activated
+1318,activated,non responder,activated
+1319,activated,non responder,activated
+1320,activated,non responder,non responder
+1321,inhibited,inhibited,activated
+1322,activated,non responder,activated
+1329,activated,activated,activated
+1330,inhibited,inhibited,inhibited
+1331,activated,inhibited,activated
+1332,activated,inhibited,non responder
+1333,inhibited,non responder,activated
+1334,activated,inhibited,activated
+1336,activated,non responder,activated
+1338,inhibited,inhibited,activated
+1339,non responder,inhibited,activated
+1341,activated,inhibited,activated
+1342,activated,inhibited,activated
+1343,activated,activated,activated
+1345,activated,activated,activated
+1347,inhibited,non responder,activated
+1349,activated,activated,activated
+1350,activated,activated,non responder
+1353,inhibited,non responder,non responder
+1354,activated,non responder,non responder
+1356,non responder,activated,non responder
+1357,non responder,non responder,non responder
+1361,inhibited,activated,activated
+1363,activated,non responder,activated
+1364,activated,non responder,activated
+1366,activated,inhibited,activated
+1367,inhibited,activated,non responder
+1368,activated,non responder,non responder
+1369,inhibited,non responder,activated
+1370,activated,non responder,non responder
+1371,inhibited,non responder,non responder
+1373,activated,activated,non responder
+1378,activated,inhibited,non responder
+1379,activated,activated,non responder
+1380,activated,non responder,non responder
+1383,activated,activated,non responder
+1384,inhibited,activated,non responder
+1385,activated,activated,non responder
+1386,activated,non responder,non responder
+1387,activated,activated,activated
+1389,inhibited,activated,non responder
+1391,inhibited,non responder,non responder
+1392,inhibited,non responder,non responder
+1394,activated,inhibited,activated
+1395,inhibited,non responder,non responder
+1398,inhibited,non responder,non responder
+1401,inhibited,non responder,inhibited
+1405,inhibited,non responder,activated
+1406,activated,non responder,non responder
+1407,activated,non responder,non responder
+1410,activated,non responder,non responder
+1412,activated,non responder,activated
+1413,activated,non responder,non responder
+1414,activated,inhibited,activated
+1416,activated,inhibited,activated
+1417,activated,activated,non responder
+1426,activated,non responder,activated
+1434,non responder,activated,activated
+1435,activated,activated,activated
+1437,inhibited,inhibited,activated
+1438,activated,non responder,activated
+1439,activated,inhibited,activated
+1440,inhibited,activated,activated
+1441,activated,non responder,activated
+1442,activated,inhibited,activated
+1443,activated,non responder,activated
+1445,activated,inhibited,activated
+1446,activated,activated,non responder
+1447,inhibited,inhibited,activated
+1448,activated,activated,activated
+1452,activated,activated,non responder
+1455,activated,non responder,activated
+1458,activated,activated,non responder
+1459,activated,activated,activated
+1460,activated,activated,non responder
+1461,activated,non responder,activated
+1463,activated,activated,activated
+1465,non responder,activated,activated
+1467,non responder,non responder,activated
+1469,activated,inhibited,activated
+1470,activated,inhibited,activated
+1471,inhibited,inhibited,non responder
+1474,activated,non responder,activated
+1475,activated,inhibited,activated
+1479,activated,activated,activated
+1480,activated,non responder,activated
+1481,non responder,activated,non responder
+1482,activated,non responder,activated
+1483,activated,activated,activated
+1484,activated,inhibited,activated
+1485,activated,activated,activated
+1486,activated,activated,activated
+1487,activated,activated,non responder
+1488,inhibited,activated,non responder
+1490,activated,non responder,activated
+1491,inhibited,non responder,activated
+1494,inhibited,non responder,non responder
+1495,activated,inhibited,activated
+1496,activated,inhibited,activated
+1497,non responder,inhibited,activated
+1498,inhibited,non responder,non responder
+1499,activated,inhibited,non responder
+1500,activated,activated,inhibited
+1501,activated,inhibited,non responder
+1502,inhibited,inhibited,activated
+1504,inhibited,inhibited,non responder
+1505,activated,inhibited,non responder
+1507,activated,inhibited,non responder
+1509,activated,inhibited,non responder
+1510,inhibited,inhibited,non responder
+1511,activated,inhibited,activated
+1512,inhibited,inhibited,non responder
+1513,activated,inhibited,non responder
+1514,activated,inhibited,non responder
+1515,inhibited,inhibited,activated
+1516,activated,activated,activated
+1517,activated,activated,activated
+1519,activated,activated,non responder
+1521,activated,non responder,activated
+1522,activated,activated,activated
+1523,activated,activated,non responder
+1525,activated,activated,non responder
+1526,inhibited,non responder,non responder
+1529,inhibited,non responder,non responder
+1530,inhibited,inhibited,non responder
+1531,inhibited,inhibited,non responder
+1532,activated,inhibited,activated
+1533,activated,activated,activated
+1535,activated,activated,activated
+1536,non responder,inhibited,activated
+1537,non responder,activated,activated
+1538,activated,activated,activated
+1540,non responder,inhibited,non responder
+1541,activated,inhibited,activated
+1542,activated,activated,non responder
+1544,non responder,non responder,non responder
+1547,inhibited,inhibited,non responder
+1548,activated,activated,non responder
+1550,inhibited,non responder,inhibited
+1551,inhibited,activated,non responder
+1554,non responder,inhibited,activated
+1556,inhibited,non responder,non responder
+1557,inhibited,non responder,inhibited
+1558,non responder,non responder,activated
+1559,activated,non responder,activated
+1560,inhibited,non responder,activated
+1562,activated,inhibited,activated
+1563,inhibited,non responder,activated
+1564,non responder,inhibited,activated
+1565,inhibited,non responder,non responder
+1567,inhibited,activated,non responder
+1568,inhibited,non responder,activated
+1569,activated,inhibited,activated
+1570,activated,inhibited,activated
+1572,activated,activated,activated
+1573,inhibited,non responder,activated
+1574,activated,activated,activated
+1575,activated,activated,activated
+1577,activated,inhibited,activated
+1578,activated,activated,activated
+1579,non responder,activated,activated
+1580,activated,activated,activated
+1581,activated,inhibited,non responder
+1582,inhibited,inhibited,activated
+1584,inhibited,non responder,activated
+1585,inhibited,non responder,non responder
+1586,inhibited,activated,activated
+1587,activated,non responder,inhibited
+1588,inhibited,inhibited,activated
+1589,activated,activated,activated
+1590,inhibited,non responder,activated
+1592,activated,activated,activated
+1593,activated,non responder,non responder
+1594,activated,activated,activated
+1595,non responder,activated,activated
+1596,activated,activated,activated
+1598,inhibited,non responder,activated
+1600,activated,non responder,activated
+1602,non responder,non responder,activated
+1603,non responder,non responder,activated
+1604,inhibited,non responder,activated
+1605,activated,activated,activated
+1606,activated,activated,activated
+1609,inhibited,non responder,activated
+1610,inhibited,inhibited,non responder
+1611,activated,inhibited,activated
+2005,non responder,inhibited,non responder
+2009,activated,non responder,activated
+2010,activated,inhibited,activated
+2014,activated,non responder,activated
+2016,non responder,activated,activated
+2017,inhibited,activated,non responder
+2018,non responder,inhibited,non responder
+2020,inhibited,non responder,activated
+2022,inhibited,inhibited,activated
+2023,non responder,activated,non responder
+2026,non responder,activated,activated
+2031,inhibited,inhibited,activated
+2034,inhibited,activated,activated
+2035,inhibited,non responder,activated
+2036,inhibited,activated,activated
+2037,non responder,inhibited,activated
+2038,non responder,inhibited,non responder
+2041,activated,inhibited,activated
+2047,inhibited,non responder,non responder
+2048,non responder,inhibited,activated
+2049,activated,inhibited,activated
+2050,activated,inhibited,activated
+2052,activated,non responder,activated
+2055,inhibited,inhibited,non responder
+2057,activated,non responder,non responder
+2058,activated,activated,inhibited
+2059,activated,inhibited,activated
+2060,activated,inhibited,activated
+2061,non responder,inhibited,activated
+2062,inhibited,inhibited,non responder
+2065,activated,inhibited,non responder
+2066,activated,inhibited,activated
+2067,activated,non responder,non responder
+2069,inhibited,non responder,non responder
+2072,inhibited,non responder,non responder
+2073,activated,non responder,non responder
+2074,activated,inhibited,activated
+2075,activated,inhibited,non responder
+2076,activated,inhibited,non responder
+2077,inhibited,non responder,non responder
+2078,activated,activated,non responder
+2079,activated,non responder,inhibited
+2081,activated,activated,inhibited
+2082,activated,activated,non responder
+2083,inhibited,activated,non responder
+2084,activated,activated,inhibited
+2087,non responder,non responder,non responder
+2091,non responder,activated,inhibited
+2099,activated,activated,non responder
+2101,activated,non responder,activated
+2102,non responder,activated,non responder
+2103,activated,non responder,activated
+2104,activated,activated,activated
+2107,activated,non responder,non responder
+2108,activated,activated,non responder
+2111,activated,activated,activated
+2112,activated,activated,non responder
+2120,activated,activated,inhibited
+2125,activated,inhibited,non responder
+2126,inhibited,activated,inhibited
+2127,activated,activated,inhibited
+2128,inhibited,activated,inhibited
+2130,activated,activated,non responder
+2135,inhibited,inhibited,non responder
+2136,inhibited,non responder,activated
+2137,activated,inhibited,non responder
+2138,inhibited,non responder,non responder
+2139,inhibited,non responder,non responder
+2144,activated,inhibited,non responder
+2147,inhibited,inhibited,activated
+2152,inhibited,inhibited,non responder
+2155,inhibited,non responder,non responder
+2162,non responder,inhibited,non responder
+2165,inhibited,activated,non responder
+2166,activated,non responder,non responder
+2173,inhibited,non responder,non responder
+2174,inhibited,non responder,non responder
+2176,inhibited,inhibited,non responder
+2177,inhibited,inhibited,non responder
+2178,activated,activated,non responder
+2181,inhibited,non responder,non responder
+2183,activated,non responder,non responder
+2184,inhibited,non responder,non responder
+2185,non responder,inhibited,activated
+2186,activated,inhibited,activated
+2187,non responder,non responder,non responder
+2188,activated,inhibited,non responder
+2189,inhibited,non responder,non responder
+2191,activated,non responder,non responder
+2192,non responder,inhibited,non responder
+2193,inhibited,non responder,non responder
+2198,inhibited,non responder,non responder
+2200,activated,inhibited,non responder
+2202,activated,inhibited,activated
+2208,inhibited,inhibited,non responder
+2211,non responder,inhibited,non responder
+2212,inhibited,inhibited,non responder
+2213,activated,inhibited,non responder
+2214,non responder,inhibited,non responder
+2217,inhibited,inhibited,non responder
+2220,activated,inhibited,non responder
+2222,activated,inhibited,non responder
+2225,non responder,inhibited,non responder
+2233,activated,inhibited,activated
+2235,non responder,non responder,non responder
+2236,activated,activated,non responder
+2241,non responder,activated,non responder
+2242,inhibited,activated,non responder
+2243,non responder,non responder,non responder
+2244,non responder,activated,non responder
+2246,activated,non responder,non responder
+2247,activated,activated,non responder
+2248,inhibited,activated,non responder
+2249,non responder,non responder,non responder
+2250,inhibited,activated,non responder
+2251,inhibited,non responder,non responder
+2252,inhibited,non responder,non responder
+2260,inhibited,non responder,non responder
+2266,activated,non responder,non responder
+2270,activated,activated,non responder
+2271,inhibited,activated,non responder
+2278,activated,activated,inhibited
+2279,activated,activated,inhibited
+2280,activated,activated,non responder
+2281,non responder,non responder,non responder
+2282,inhibited,activated,non responder
+2283,activated,inhibited,non responder
+2284,inhibited,activated,non responder
+2285,non responder,inhibited,non responder
+2287,activated,inhibited,activated
+1081,,non responder,non responder
+1393,,non responder,non responder
