@@ -145,7 +145,7 @@ class FSFastDecodeDataLoader:
             .set_index(["bin"])
         )
         states = np.where(
-            (df_binned.index.values < self.window[0])
+            (df_binned.index.values >= self.window[0])
             & (df_binned.index.values <= self.window[1]),
             "PRE",
             "POST",
