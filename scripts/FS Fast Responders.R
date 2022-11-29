@@ -33,6 +33,7 @@ theme_set(
 ######
 
 data_dir <- "/Users/ruairiosullivan/repos/SSRI Interactions/data/derived"
+fig_dir <- file.path("figs", "foot-shock")
 
 neuron_types <- read_csv("data/derived/neuron_types.csv") %>%
   mutate(group = factor(group, levels=c("SAL", "CIT", "DIS"), ordered=T)) %>%
@@ -47,8 +48,8 @@ fast_responders <- read_csv(
   mutate(
     response=factor(
       fs_fast_response, 
-      levels=c("non responder", "inhibited", "activated"),
-      labels=c("Not\nShock-\nModulated", "Shock-\nInhibited", "Shock-\nActivated")
+      levels=c("inhibited", "non responder", "activated"),
+      labels=c("Shock-\nInhibited", "Not\nShock-\nModulated", "Shock-\nActivated")
       )
   )
 
@@ -103,10 +104,12 @@ fast_responders %>%
   scale_fill_manual(values=c(SAL="grey", CIT="black")) +
   labs(y="") +
   facet_grid(rows=vars(neuron_type)) +
+  guides(fill="none") +
   lims(y=c(0, 100)) + theme(axis.text.x = element_text(angle=22.5)) -> p_prop_neuron_types
 
 p_prop_neuron_types
 
+ggsave(file.path(fig_dir, "fast_fs_w1_prop_responders.png"), dpi=300, width=2.8, height=4)
 
 ########################## SECOND WINDOW
 
@@ -118,9 +121,9 @@ fast_responders_second_window <- read_csv(
   mutate(
     response=factor(
       response_second_window, 
-      levels=c("non responder", "inhibited", "activated"),
-      labels=c("Not\nShock-\nModulated", "Shock-\nInhibited", "Shock-\nActivated")
-    )
+        levels=c("inhibited", "non responder", "activated"),
+        labels=c("Shock-\nInhibited", "Not\nShock-\nModulated", "Shock-\nActivated")
+        )
   )
 
 psth <- read_parquet(
@@ -173,7 +176,10 @@ fast_responders_second_window %>%
   ) +
   scale_fill_manual(values=c(SAL="grey", CIT="black")) +
   labs(y="") +
+  guides(fill="none") +
   facet_grid(rows=vars(neuron_type)) +
   lims(y=c(0, 100)) + theme(axis.text.x = element_text(angle=22.5)) -> p_prop_neuron_types
 
 p_prop_neuron_types
+ggsave(file.path(fig_dir, "fast_fs_w2_prop_responders.png"), dpi=300, width=2.8, height=4)
+

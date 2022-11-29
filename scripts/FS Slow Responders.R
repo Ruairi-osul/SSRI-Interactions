@@ -31,7 +31,7 @@ theme_set(
 
 
 ####### Load data
-
+fig_dir <- file.path("figs", "foot-shock")
 data_dir <- "/Users/ruairiosullivan/repos/SSRI Interactions/data/derived"
 
 neuron_types <- read_csv("data/derived/neuron_types.csv") %>%
@@ -107,10 +107,11 @@ p_prop_neuron_types <- slow_responders %>%
   ) +
   scale_fill_manual(values=c(SAL="grey", CIT="black")) +
   labs(y="") +
+  guides(fill="none") +
   facet_grid(rows=vars(neuron_type)) +
   lims(y=c(0, 100)) + theme(axis.text.x = element_text(angle=22.5))
 
 p_prop_neuron_types
-
+ggsave(file.path(fig_dir, "slow_fs_prop_responders.png"), dpi=300, width=1.8, height=4)
 
 
