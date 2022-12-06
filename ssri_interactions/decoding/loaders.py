@@ -155,7 +155,6 @@ class FSFastDecodeDataLoader:
         return df_binned, states
 
 
-
 class FSFastDecodeDataLoaderTwoWindows:
     def __init__(
         self,
@@ -210,19 +209,19 @@ class FSFastDecodeDataLoaderTwoWindows:
             condlist=[
                 (
                     (df_binned.index.values >= self.window_1[0])
-                    & 
-                    (df_binned.index.values <= self.window_1[1]),
+                    & (df_binned.index.values <= self.window_1[1]),
                 ),
                 (
                     (df_binned.index.values >= self.window_2[0])
-                    & 
-                    (df_binned.index.values <= self.window_2[1]),
-                )
+                    & (df_binned.index.values <= self.window_2[1]),
+                ),
             ],
             choicelist=["PRE", "POST"],
             default="NA",
         ).flatten()
+        idx = states != "NA"
         states = pd.Series(states, index=df_binned.index.values)
-        states = states[states != "NA"]
-        df_binned = df_binned.loc[states.index.values]
+        states = states.loc[idx]
+        df_binned = df_binned.loc[idx]
+
         return df_binned, states

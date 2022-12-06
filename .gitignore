@@ -18,3 +18,4 @@ data/derived/chal_binned.csv
 data/derived/way_binned.csv
 .DS_Store
 *brain_states*.parquet
+*counts*.parquet

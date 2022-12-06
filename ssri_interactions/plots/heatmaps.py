@@ -67,6 +67,7 @@ def similarity_map(
     df_binned_piv: pd.DataFrame,
     z: bool = False,
     ax: Optional[plt.Axes] = None,
+    metric: str = "cosine",
     locater_x: Locator = NullLocator(),
     formater_x: Formatter = NullFormatter(),
     locater_y: Locator = AutoLocator(),
@@ -82,7 +83,7 @@ def similarity_map(
     if ax is None:
         _, ax = plt.subplots(figsize=(4, 4))
     X = df_binned_piv.values if not z else df_binned_piv.apply(zscore)
-    sim = 1 - pairwise_distances(X, metric="cosine")
+    sim = 1 - pairwise_distances(X, metric=metric)
     df_sim = pd.DataFrame(sim, index=df_binned_piv.index, columns=df_binned_piv.index)
 
     ax, cbar = heatmap(

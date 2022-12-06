@@ -106,6 +106,7 @@ class DecodeRunner:
         pop_res = []
         unit_res = []
         for session in sessions:
+            print(session)
             self._spikes = None
             self._states = None
             self.loader.set_session(session)
