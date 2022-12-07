@@ -43,6 +43,7 @@ class GraphTransformer:
         target_col: str = "b",
         comb_col_name: str = "comb_id",
     ) -> pd.DataFrame:
+        df_edge = df_edge.copy()
         df_edge[comb_col_name] = df_edge.apply(
             lambda x: sorted(list({x[source_col], x[target_col]})), axis=1
         )
@@ -91,10 +92,10 @@ class GraphTransformer:
         df_distance = df_distance[
             [self.distance_source_col, self.distance_target_col, self.distance_col]
         ]
-        df_distance = df_distance.loc[
-            lambda x: (x[self.distance_source_col].isin(df_edge[source_col]))
-            & (x[self.distance_target_col].isin(df_edge[target_col]))
-        ]
+        # df_distance = df_distance.loc[
+        #     lambda x: (x[self.distance_source_col].isin(df_edge[source_col]))
+        #     | (x[self.distance_target_col].isin(df_edge[target_col]))
+        # ]
         df_dist = df_distance.copy()
         df_dist = self._add_id_comb_col(
             df_distance,
@@ -150,9 +151,12 @@ class GraphTransformer:
         df_affinity.columns.name = self.node_name
         return df_affinity
 
-    def graph_to_edge_df(self, G: nx.Graph,) -> pd.DataFrame:
+    def graph_to_edge_df(
+        self,
+        G: nx.Graph,
+    ) -> pd.DataFrame:
         df = nx.to_pandas_edgelist(G, source="a", target="b")
-        df = self._add_id_comb_col(df, source_col="a", target_col="b")
+        df = self._add_id_comb_col(df.copy(), source_col="a", target_col="b")
         if self.neuron_types is not None:
             df = self._add_neuron_type_comb_col(
                 df, self.neuron_types, source_col="a", target_col="b"
