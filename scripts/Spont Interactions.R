@@ -70,6 +70,7 @@ ylab_edge <- "Neuron Pair\nInteraction\nWeight"
 #####################
 
 read_parquet("data/derived/corrs/spont - corr.parquet") %>%
+  filter(session_name != 'chronic_08') %>%
   filter(group != "DIS") %>%
   mutate(
     nt_comb = factor(
@@ -82,10 +83,20 @@ read_parquet("data/derived/corrs/spont - corr.parquet") %>%
       labels=c("SAL",  "CIT"),
     ),
     distance = distance / 1000,
-    is_neg = corr < 0,
+    is_neg = corr < -0.15,
+    is_pos = corr > 0,
     mag = abs(corr),
     rec = if_else(corr < 0, 0, corr)
   ) -> df_corr
+
+
+df_corr %>%
+  filter(bin_width==1, shuffle==F) %>%
+  filter(nt_comb == 'SR-SR') %>%
+  ggplot(aes(x=corr)) +
+  geom_histogram() +
+  facet_grid(rows=vars(group)) +
+  lims(x=c(-0.45, 0.45))
 
 
 neg_mod <- glm(
@@ -110,39 +121,76 @@ emms_neg %>%
   scale_fill_manual(values=c(SAL="grey", CIT="black")) +
   facet_grid(cols=vars(nt_comb)) +
   guides(fill="none") +
+  labs(y="Proportion of\nPairs With Positive\nCorrelations")
+
+
+
+anova(neg_mod)
+emms_neg <- emmeans(
+  neg_mod, 
+  specs = ~ group | nt_comb,
+  type="response"
+)
+pairs(emms_neg)
+
+emms_neg %>%
+  as_tibble() %>%
+  ggplot(aes(x=group, y=prob, fill=group, ymin=prob - SE, ymax=prob + SE)) + 
+  geom_bar(stat="identity",  position=position_dodge(preserve = "single", width=0.4), color="black", width=0.5) +
+  geom_errorbar(width=0.28, color='#5c5c5c', position=position_dodge(preserve = "single", width=0.8)) +
+  scale_fill_manual(values=c(SAL="grey", CIT="black")) +
+  facet_grid(cols=vars(nt_comb)) +
+  guides(fill="none") +
   labs(y="Proportion of\nPairs With Negative\nCorrelations")
 
 
-# mag_mod <- lm(
-#   rec ~ nt_comb + group + nt_comb:group + distance,
-#   data=filter(df_corr, bin_width==1, shuffle==F)
-# )
-# anova(mag_mod)
-# emms_mag <- emmeans(
-#   mag_mod, 
-#   specs = ~ group | nt_comb
-#   )
-# pairs(emms_mag)
-# 
-# emms_mag %>%
-#     as_tibble() %>%
-#     ggplot(aes(x=group, y=emmean, fill=group, ymin=emmean - SE, ymax=emmean + SE)) +
-#     geom_bar(stat="identity",  position=position_dodge(preserve = "single", width=0.4), color="black", width=0.5) +
-#     geom_errorbar(width=0.28, color='#5c5c5c', position=position_dodge(preserve = "single", width=0.8)) +
-#     scale_fill_manual(values=c(SAL="grey", CIT="black")) +
-#     facet_grid(cols=vars(nt_comb)) +
-#     guides(fill="none") +
-#     labs(y=ylab_edge) +
-#     theme(
-#       axis.text.x = element_text(size=10, angle=0),
-#     )
-# 
-# emms_mag
+
+
+
+mag_mod <- lm(
+  mag ~ nt_comb + group + nt_comb:group + distance,
+  data=filter(df_corr, bin_width==1, shuffle==F, corr > 0.05)
+)
+anova(mag_mod)
+emms_mag <- emmeans(
+  mag_mod,
+  specs = ~ group | nt_comb
+  )
+emms_mag
+
+em_tab <- as_tibble(emms_mag) %>%
+  mutate(`Spike Count Correlation` = str_c(round(emmean, 2),  round(SE, 2), sep=" +-")) %>%
+  select(group, nt_comb, `Spike Count Correlation`) %>%
+  pivot_wider(names_from=c(group), values_from=c(`Spike Count Correlation`))
+
+pairs(emms_mag) %>% as_tibble() %>%
+  mutate(`Difference` = str_c(round(estimate, 2),  round(SE, 2), sep=" +-")) %>%
+  mutate(p = round(p.value, 4)) %>%
+  select(nt_comb, `Difference`, p) %>%
+  right_join(em_tab) %>%
+  mutate(`Neuron Type Combination`=nt_comb) %>%
+  select(`Neuron Type Combination`, SAL, CIT, `Difference`, p)
+
+emms_mag %>%
+    as_tibble() %>%
+    ggplot(aes(x=group, y=emmean, fill=group, ymin=emmean - SE, ymax=emmean + SE)) +
+    geom_bar(stat="identity",  position=position_dodge(preserve = "single", width=0.4), color="black", width=0.5) +
+    geom_errorbar(width=0.28, color='#5c5c5c', position=position_dodge(preserve = "single", width=0.8)) +
+    scale_fill_manual(values=c(SAL="grey", CIT="black")) +
+    facet_grid(cols=vars(nt_comb)) +
+    guides(fill="none") +
+    labs(y=ylab_edge) +
+    theme(
+      axis.text.x = element_text(size=10, angle=0),
+    )
+
+emms_mag
 
 ###############
 
 read_parquet("data/derived/corrs/spont - pcup.parquet") %>%
   filter(group != "DIS") %>%
+  # filter(session_name != 'chronic_08') %>%
   left_join(select(df_node, neuron_id, neuron_type)) %>%
   mutate(
       group = factor(
@@ -226,3 +274,22 @@ ems_test %>%
   guides(fill="none") +
   labs(y="Proportion of\nPairs With Negative\nCorrelations")
 
+
+
+###########
+
+df_corr %>%
+  filter(bin_width==1, shuffle==F) %>%
+  group_by(session_name, nt_comb, group) %>%
+  summarise(c = mean(corr), num=n()) %>%
+  filter(nt_comb == 'SR-SR') %>%
+  ggplot(aes(x=c, y=num)) +
+  geom_point() +
+  facet_grid(rows=vars(group))
+
+df_corr %>%
+  filter(bin_width==1, shuffle==F) %>%
+  group_by(session_name, nt_comb, group) %>%
+  summarise(c = mean(corr), num=n()) %>%
+  filter(nt_comb == 'SR-SR') %>%
+  filter(c < 0)
