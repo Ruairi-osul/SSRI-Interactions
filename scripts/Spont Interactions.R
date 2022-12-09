@@ -404,9 +404,10 @@ prop_neg_tab
 prop_pos_tab
 
 
-(prop_neg_plot_sr + pcorr_prop_sr + pcup_plot_sr) / (pos_mag_plot_all)
+(prop_neg_plot_sr + pcorr_prop_sr + pcup_plot_sr) / (prop_pos_plot_all)
 
 
+(prop_neg_plot_sr + pcorr_prop_sr + pcup_plot_sr) 
 
   
   
